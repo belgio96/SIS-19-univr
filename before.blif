@@ -1,0 +1,18 @@
+.models before
+
+.in QI VIN1 VIN2 VIN3 VIN4 VIN5 VIN6
+.out GB GC
+
+.names GA QI GB #rotto
+10 1
+
+.names GA QI GC #ok
+11 1
+
+.end
+
+.subckt #collega i file
+
+.code #serve per per dire la codifica
+
+## vedi da pag 207 lkibro pag 380

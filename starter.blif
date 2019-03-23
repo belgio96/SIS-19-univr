@@ -1,0 +1,49 @@
+.models starter
+.inputs in1 in2/VIN1 in3/VIN2 VIN3 VIN4 VIN5 VIN6
+.outputs i/o err1 err2 err3 GA GB GC GD GE GF NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
+
+.start_kiss #stati
+.i 7
+.o 30
+.s 5
+.r STOP
+# in1 in2/VIN1 in3/VIN2 VIN3 VIN4 VIN5 VIN6 s s i/o err1 err2 err3 GA GB GC GD GE GF NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
+000---- start start    000000--------------
+111---- starter before 1 100 100000 ????????
+10----- before starter 1 100 000000
+11----- before milling 1 100 010000
+1
+
+.end_kiss
+.code STOP 0000-------------??
+
+#collega i file
+.subckt START 
+.subckt BEFORE in1=QI in2/VIN1=VIN1 in3/VIN2=VIN2 VIN3=VIN3 VIN4=VIN4 VIN5=VIN5 VIN6=VIN6
+.subckt MILLING in1=QI in2/VIN1=VIN1 in3/VIN2=VIN2 VIN3=VIN3 VIN4=VIN4 VIN5=VIN5 VIN6=VIN6
+.subckt after=after
+.code #serve per per dire la codifica
+
+# vedi da pag 207 libro pag 380
+.search start.blif
+.search before.blif  
+.search after.blif
+.search milling.blif
+
+.end
+
+
+
+# non qui non qui non qui
+#.out GA
+#.names in1 in2 in3 GA
+#111 1
+
+#100 acceso ma no porta
+#011 -
+
+#000 0
+#001 0
+#010 0
+#101 0
+#110 0
