@@ -1,6 +1,6 @@
 .models after
 
-.in GD QO
+.in I/O QO
 .out GF GE
 
 .names GD QO GF #ok
@@ -19,4 +19,4 @@
 
 .code #serve per per dire la codifica
 
-## vedi da pag 207 lkibro pag 380
+# vedi da pag 207 lkibro pag 380

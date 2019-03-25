@@ -1,14 +1,12 @@
 .models before
 
-.in QI VIN1 VIN2 VIN3 VIN4 VIN5 VIN6
+.in QI VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 GA
 .out GB GC
 
-.names GA QI GB #rotto
-10 1
-
-.names GA QI GC #ok
-11 1
-
+.names GA QI GB GC#rotto GB #ok GC
+10 10
+11 01
+0- 00
 .end
 
 .subckt #collega i file

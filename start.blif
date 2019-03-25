@@ -1,0 +1,14 @@
+.start_kiss #stati #FSM??
+.i 7
+.o 30
+.s 5
+.r START
+# in1 in2/VIN1 in3/VIN2 VIN3 VIN4 VIN5 VIN6 s s i/o err1 err2 err3 GA GB GC GD GE GF NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
+000---- start start    000000--------------
+111---- starter before 1 100 100000 ????????
+10----- before starter 1 100 000000
+11----- before milling 1 100 010000
+1
+
+.end_kiss
+.code STOP 0000-------------??
