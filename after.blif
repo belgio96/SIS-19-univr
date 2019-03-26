@@ -6,17 +6,16 @@
 .names GD QO GF #ok
 11 1
 
-.names GD QO GE $rotto
+.names GD QO GE #rotto
 10 1
 
-.end
+.start_kiss #stati
 
-.start kiss #stati
-
-.end kiss
+.end_kiss
 
 .subckt #collega i file
 
 .code #serve per per dire la codifica
+.end
 
 # vedi da pag 207 lkibro pag 380
