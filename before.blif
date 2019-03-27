@@ -1,6 +1,6 @@
 .models before
 
-.in QI VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 GA
+.in GA QI
 .out GB GC
 
 .names GA QI GB GC#rotto GB #ok GC

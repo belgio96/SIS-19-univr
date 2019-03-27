@@ -1,26 +1,23 @@
-.models starter
-.inputs in1 in2/VIN1 in3/VIN2 VIN3 VIN4 VIN5 VIN6
-.outputs i/o err1 err2 err3 GA GB GC GD GE GF NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
+.models starter #datapath
+.inputs VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 errMilling
+.outputs err1 err2 err3 NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4 over
+
+.names errMilling err1 err2 err3
+1 001
 
 #collega i file
-.subckt START GA=GA
 .subckt BEFORE in1=QI in2/VIN1=VIN1 in3/VIN2=VIN2 VIN3=VIN3 VIN4=VIN4 VIN5=VIN5 VIN6=VIN6 GA=GA	 GB=GB GC=GC
 .subckt MILLING in1=QI in2/VIN1=VOUT1 in3/VIN2=VOUT2 VIN3=VOUT3 VIN4=VOUT4 VIN5=VOUT5 VIN6=VOUT6
 .subckt AFTER in1=QI in2/VIN1=QO
 .code #serve per per dire la codifica
 
 # vedi da pag 207 libro pag 380
-.search start.blif
 .search before.blif  
 .search after.blif
 .search milling.blif
 
 .end
 
-
-
-# non qui non qui non qui
-#.out GA
 #.names in1 in2 in3 GA
 #111 1
 
