@@ -1,14 +1,31 @@
 .models starter #datapath
-.inputs VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 errMilling
+.inputs VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 errMilling sta1 sta2
 .outputs err1 err2 err3 NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4 over
 
-.names errMilling err1 err2 err3
+.names errMilling err1 err2 err3q
 1 001
 
-#collega i file
-.subckt BEFORE in1=QI in2/VIN1=VIN1 in3/VIN2=VIN2 VIN3=VIN3 VIN4=VIN4 VIN5=VIN5 VIN6=VIN6 GA=GA	 GB=GB GC=GC
-.subckt MILLING in1=QI in2/VIN1=VOUT1 in3/VIN2=VOUT2 VIN3=VOUT3 VIN4=VOUT4 VIN5=VOUT5 VIN6=VOUT6
-.subckt AFTER in1=QI in2/VIN1=QO
+.names sta1 sta2 VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 NA1in NB1in NC1in NE1in NF1in
+00 ------ 00000
+# NA+1
+01 ------ 10000
+# NC+1
+00 ------ 01000
+# NF+1
+00 ------ 00100
+# NE+1
+00 ------ 00010 
+# N_scratch+VIN-VOUT
+00 111111 00000
+
+
+#collega i file bef.. non vanno qui non ho var corrette da dargli
+.subckt NA_counter
+.subckt NC_cuonter
+.subckt too_MILLING_counter
+.subckt NE_counter
+.subckt NF_counter
+
 .code #serve per per dire la codifica
 
 # vedi da pag 207 libro pag 380

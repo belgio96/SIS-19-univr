@@ -1,13 +1,12 @@
-.models milling
+.model milling
 
-.in GC EM VOUT1 VOUT2 VOUT3 VOUT4 VOUT5 VOUT6
-.out GD err1 err2 err3
+.inputs GC EM
+.outputs GD errMillling
 
-.names GC EM GD #ok
-11 1
-
-.names GC EM 
--0 001
+.names GC EM GD errMilling #ok = GD #err = errMilling
+11 10
+10 01
+00 00
 
 .end
 
@@ -16,9 +15,5 @@
 
 
 .end_kiss
-
-.subckt #collega i file
-
-.code #serve per per dire la codifica
 
 # vedi da pag 207 lkibro pag 380
