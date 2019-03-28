@@ -4,12 +4,12 @@
 
 
 #fsm
-.subckt start in1=in1 in2/VIN1=in2 in3/VIN2=in3		i/o=i/o GA=GA GB=GB GC=GC GD=GD GE=GE GF=GF over=over errMilling=errMilling sta1=sta1 sta2=sta2 
+.subckt start in1=in1 in2/VIN1=in2 in3/VIN2=in3		i/o=i/o GA=GA GB=GB GC=GC GD=GD GE=GE GF=GF over=over errMilling=errMilling
 #err solo errore milling, sovrapposizione?? -->var dedicata e codificata verso il datapath
 
 
 #datapath
-.subckt starter in2/VIN1=VIN1 in3/VIN2=VIN2 VIN3=VIN3 VIN4=VIN4 VIN5=VIN5 VIN6=VIN6 errMilling=errMilling		err1 err2 err3 NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4 over=over sta1=sta1 sta2=sta2
+.subckt starter in2/VIN1=VIN1 in3/VIN2=VIN2 VIN3=VIN3 VIN4=VIN4 VIN5=VIN5 VIN6=VIN6 errMilling=errMilling GA=GA GC=GC GD=GD GE=GE GF=GF		err1 err2 err3 NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4 over=over 
 
 .search start.blif
 .search starter.blif

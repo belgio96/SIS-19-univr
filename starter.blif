@@ -1,35 +1,39 @@
 .models starter #datapath
-.inputs VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 errMilling sta1 sta2
-.outputs err1 err2 err3 NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4 over
+.inputs VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 errMilling GA GC GD GE GF 
+.outputs err1 err2 err3 NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4 over 
 
-.names errMilling err1 err2 err3q
+.names errMilling NAerr NCerr NEerr NFerr err1 err2 err3q
 1 001
 
-.names sta1 sta2 VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 NA1in NB1in NC1in NE1in NF1in
-00 ------ 00000
+.names GA GC GD GE GF VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 NA1in NC1in NE1in NF1in vIN1 vIN2 vIN3 vIN4 vIN5 vIN6 vOUT1 vOUT2 vOUT3 vOUT4 vOUT5 vOUT6
+00000 ------ 00000 000000 000000
 # NA+1
-01 ------ 10000
-# NC+1
-00 ------ 01000
+10000 ------ 10000 000000 000000
+# NC+1 + VIN
+01000 111111 01000 111111 000000
+# ND-VOUT
+00100 111111 00000 000000 111111
 # NF+1
-00 ------ 00100
+00010 ------ 00100 000000 000000
 # NE+1
-00 ------ 00010 
-# N_scratch+VIN-VOUT
-00 111111 00000
-
+00001 ------ 00010 000000 000000
 
 #collega i file bef.. non vanno qui non ho var corrette da dargli
-.subckt NA_counter
-.subckt NC_cuonter
-.subckt too_MILLING_counter
-.subckt NE_counter
-.subckt NF_counter
+.subckt NA_counter NAin NAerr
+.subckt NC_cuonter NCin NCerr
+.subckt too_MILLING_counter vIN1=vIN1 vIN2=vIN2 vIN3=vIN3 vIN4=vIN4 vIN5=vIN5 vIN6=vIN6 vOUT1=vOUT1 vOUT2=vOUT2 vOUT3=vOUT3 vOUT4=vOUT4 vOUT5=vOUT5 vOUT6=vOUT6 #ottimizzato male perche sempre si fa piu qualcosa o 1 o zero ma sempre si fa
+.subckt NE_counter NEin NEerr
+.subckt NF_counter NFin NFerr
 
 .code #serve per per dire la codifica
 
 # vedi da pag 207 libro pag 380
-.search before.blif  
+.search NA_counter.blif
+.search NC_counter.blif
+.search too_MILLING_counter.blif
+.search NE_counter.blif
+.search NF_counter.blif
+.search before.blif
 .search after.blif
 .search milling.blif
 
