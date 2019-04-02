@@ -24,6 +24,7 @@
 10 10
 01 10
 11 11
+
 .subckt rigistro4bit in=in1 out=out1 in=in2 out=out2 in=in3 out=out3 in=in4 out=out4
-.search registro1bit.blif
+.search registro4bit.blif
 .end 
