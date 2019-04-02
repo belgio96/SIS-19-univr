@@ -1,4 +1,13 @@
 .model too_MILLING_counter
 .inputs vIN1 vIN2 vIN3 vIN4 vIN5 vIN6 vOUT1 vOUT2 vOUT3 vOUT4 vOUT5 vOUT6
 .outputs TOOerr
+#summer tem var: t1 t2 t3 t4 t5 t6
+.names val1 val2 val3 val4 val5 val6 val7 val8 TOOerr
+11111111 1#da codificare i 200
+.subckt sotTRATTORE6bit vIN1=ina1 vIN2=ina2 vIN3=ina3 vIN4=ina4 vIN5=ina5 vIN6=ina6 vOUT1=inb1 vOUT2=inb2 vOUT3=inb3 vOUT4=inb4 vOUT5=inb5 vOUT6=inb6 rest1=rest1 rest2=rest2 rest3=rest3 rest4=rest4 rest5=rest5 rest6=rest6
+.subckt sommatore8bit val1=ina1 val2=ina2 val3=ina3 val4=ina4 val5=ina5 val6=ina6 rest1=inb1 rest2=inb2 rest3=inb3 rest4=inb4 rest5=inb5 rest6=inb6 t1=outs1 t2=outs2 t3=outs3 t4=outs4 t5=outs5 t6=outs6 t7=outs7 t8=outs8
+.subckt rigistro8bit t1=in1 t2=in2 t3=in3 t4=in4 t5=in5 t5=in5 t6=in6 t7=in7 t8=in8 val1=out1 val2=out2 val3=out3 val4=out4 val5=out5 val6=out6 val7=out7 val8=out8
+.search sotTRATTORE8bit.blif
+.search sommatore8bit.blif
+.search registro8bit.blif
 .end 
