@@ -18,14 +18,11 @@
 # NE+1
 00001 ------ 00010 000000 000000
 
-#collega i file bef.. non vanno qui non ho var corrette da dargli
-.subckt NA_counter NAin NAerr
-.subckt NC_cuonter NCin NCerr
-.subckt too_MILLING_counter vIN1=vIN1 vIN2=vIN2 vIN3=vIN3 vIN4=vIN4 vIN5=vIN5 vIN6=vIN6 vOUT1=vOUT1 vOUT2=vOUT2 vOUT3=vOUT3 vOUT4=vOUT4 vOUT5=vOUT5 vOUT6=vOUT6 #ottimizzato male perche sempre si fa piu qualcosa o 1 o zero ma sempre si fa
-.subckt NE_counter NEin NEerr
-.subckt NF_counter NFin NFerr
-
-.code #serve per per dire la codifica
+.subckt NA_counter NAin=NAin NAerr=NAerr
+.subckt NC_cuonter NCin=NCin NCerr=NCerr
+.subckt too_MILLING_counter vIN1=vIN1 vIN2=vIN2 vIN3=vIN3 vIN4=vIN4 vIN5=vIN5 vIN6=vIN6 vOUT1=vOUT1 vOUT2=vOUT2 vOUT3=vOUT3 vOUT4=vOUT4 vOUT5=vOUT5 vOUT6=vOUT6 TOOerr=TOOerr #ottimizzato male perche sempre si fa piu qualcosa o 1 o zero ma sempre si fa
+.subckt NE_counter NEin=NEin NEerr=NEerr
+.subckt NF_counter NFin=NFin NFerr=NFerr
 
 # vedi da pag 207 libro pag 380
 .search NA_counter.blif
@@ -33,9 +30,11 @@
 .search too_MILLING_counter.blif
 .search NE_counter.blif
 .search NF_counter.blif
-.search before.blif
-.search after.blif
-.search milling.blif
+
+#collega i file bef.. non vanno qui non ho var corrette da dargli penso non servano proprio dato gli stati
+#.search before.blif
+#.search after.blif
+#.search milling.blif
 
 .end
 

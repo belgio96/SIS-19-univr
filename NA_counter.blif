@@ -1,3 +1,29 @@
 .model NA_counter
+.inputs NAin #bit3 bit2 bit1 bit0
+.outputs NAerr #bit3 bit2 bit1 bit0
 
-.end
+#overflow
+#.names in1 in2 in3 in4 NAerr
+#1111 1
+
+#summer
+.names NAin out1 in1 cout1
+10 10
+01 10
+11 11
+
+.names out2 cout1 in2 count2
+10 10
+01 10
+11 11
+.names out3 cout2 in3 count3
+10 10
+01 10
+11 11
+.names out4 cout3 in4 count3 NAerr
+10 10
+01 10
+11 11
+.subckt rigistro4bit in=in1 out=out1 in=in2 out=out2 in=in3 out=out3 in=in4 out=out4
+.search registro1bit.blif
+.end 

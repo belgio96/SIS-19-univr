@@ -1,2 +1,4 @@
 .model NF_counter
-.end
+.inputs NFin
+.outputs NFerr
+.end 

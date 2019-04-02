@@ -1,2 +1,4 @@
 .model NC_counter
-.end
+.inputs NCin
+.outputs NCerr
+.end 

@@ -1,2 +1,4 @@
 .model NE_counter
-.end
+.inputs NEin
+.outputs NEerr
+.end 

@@ -1,2 +1,4 @@
 .model too_MILLING_counter
-.end
+.inputs vIN1 vIN2 vIN3 vIN4 vIN5 vIN6 vOUT1 vOUT2 vOUT3 vOUT4 vOUT5 vOUT6
+.outputs TOOerr
+.end 

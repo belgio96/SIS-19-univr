@@ -1,11 +1,6 @@
-.models registro1bit
-
-.in  in
-.out out
-
-.names in out
-1 1
-
-.end
-
+.model registro1bit
+.inputs in
+.outputs out
+.latch in out re NIL 0
+.end 
 # vedi da pag 207 libro pag 380
