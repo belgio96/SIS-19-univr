@@ -1,4 +1,4 @@
-.models starter #datapath
+.model starter #datapath
 .inputs VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 errMilling GA GC GD GE GF 
 .outputs err1 err2 err3 NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4 over 
 

@@ -1,4 +1,4 @@
-.models start #FSM
+.model start #FSM
 .inputs in1 in2 in3 over
 .outputs i/o errMilling GA GB GC GD GE GF
 
