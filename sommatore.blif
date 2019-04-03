@@ -1,0 +1,14 @@
+.model sommatore1bit
+.inputs in1 in2 cin
+.outputs out cout
+.names in1 in2 temp
+10 1
+01 1
+.names temp cout out
+10 1
+01 1
+.names in1 in2 cin cout
+11- 1
+1-1 1
+-11 1
+.end

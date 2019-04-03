@@ -2,8 +2,13 @@
 .inputs VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 errMilling GA GC GD GE GF 
 .outputs err1 err2 err3 NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4 over 
 
-.names errMilling NAerr NCerr NEerr NFerr err1 err2 err3q
-1 001
+.names errMilling NAerr NCerr NEerr NFerr err1 err2 err3 over #TODO
+1---- 001 0
+01--- 101 1
+001-- 101 1
+0001- 101 1
+00001 101 1
+
 
 .names GA GC GD GE GF VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 NA1in NC1in NE1in NF1in vIN1 vIN2 vIN3 vIN4 vIN5 vIN6 vOUT1 vOUT2 vOUT3 vOUT4 vOUT5 vOUT6
 00000 ------ 00000 000000 000000
