@@ -2,39 +2,48 @@
 .inputs VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 errMilling GA GC GD GE GF 
 .outputs err1 err2 err3 NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4 over 
 
-.names errMilling NAerr NCerr NEerr NFerr 	err1 err2 err3 over #TODO
-#1---- 0010
-01--- 1011
-001-- 1011
-0001- 1011
-00001 1011
-
-
-.names GA GC GD GE GF VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 NA1in NC1in NE1in NF1in vIN1 vIN2 vIN3 vIN4 vIN5 vIN6 vOUT1 vOUT2 vOUT3 vOUT4 vOUT5 vOUT6
-00000 ------ 00000 000000 000000
-# NA+1
-10000 ------ 10000 000000 000000
-# NC+1 + VIN
-01000 111111 01000 111111 000000
-# ND-VOUT
-00100 111111 00000 000000 111111
-# NF+1
-00010 ------ 00100 000000 000000
-# NE+1
-00001 ------ 00010 000000 000000
 
 .subckt NA_counter NAin=NAin NAerr=NAerr
 .subckt NC_cuonter NCin=NCin NCerr=NCerr
-.subckt too_MILLING_counter vIN1=vIN1 vIN2=vIN2 vIN3=vIN3 vIN4=vIN4 vIN5=vIN5 vIN6=vIN6 vOUT1=vOUT1 vOUT2=vOUT2 vOUT3=vOUT3 vOUT4=vOUT4 vOUT5=vOUT5 vOUT6=vOUT6 TOOerr=TOOerr #ottimizzato male perche sempre si fa piu qualcosa o 1 o zero ma sempre si fa
+.subckt too_MILLING_counter vIN1=vIN1 vIN2=vIN2 vIN3=vIN3 vIN4=vIN4 vIN5=vIN5 vIN6=vIN6 vOUT1=vOUT1 vOUT2=vOUT2 vOUT3=vOUT3 vOUT4=vOUT4 vOUT5=vOUT5 vOUT6=vOUT6 TOOerr=TOOerr 
+#ottimizzato male perche sempre si fa piu qualcosa o 1 o zero ma sempre si fa
 .subckt NE_counter NEin=NEin NEerr=NEerr
 .subckt NF_counter NFin=NFin NFerr=NFerr
 
-# vedi da pag 207 libro pag 380
 .search NA_counter.blif
 .search NC_counter.blif
 .search too_MILLING_counter.blif
 .search NE_counter.blif
 .search NF_counter.blif
+
+
+.names GA GB GC GD GE GF VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 	NA1in NBin NC1in NE1in NF1in vIN1 vIN2 vIN3 vIN4 vIN5 vIN6 vOUT1 vOUT2 vOUT3 vOUT4 vOUT5 vOUT6
+000000------ 000000000000000000
+# NA+1
+100000------ 100000000000000000
+# NB+1
+010000------ 010000000000000000
+# NC+1 + VIN
+001000111111 001000111111000000
+# ND-VOUT
+000100111111 000000000000111111
+# NF+1
+000010------ 000100000000000000
+# NE+1
+000001------ 000010000000000000
+
+## ~TODO
+
+.names errMilling NAerr NBerr NCerr NEerr NFerr TOOerr 	err1 err2 err3 over 
+1000000 0010
+0100000 1011
+0010000 1011
+0001000 1011
+0000100 1101
+0000010 1011
+0000001 0101
+
+# vedi da pag 207 libro pag 380
 
 #collega i file bef.. non vanno qui non ho var corrette da dargli penso non servano proprio dato gli stati
 #.search before.blif

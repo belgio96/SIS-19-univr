@@ -1,8 +1,0 @@
-.model sotTRATTORE1bit
-.inputs in1 in2
-.outputs out cneed
-.names
-.names
-.names
-
-.end
