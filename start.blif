@@ -3,7 +3,7 @@
 .outputs i/o errMilling GA GB GC GD GE GF
 
 .start_kiss #stati
-.i 3 # compreso di uno che mi ferma la macchina per errore milling
+.i 4 # compreso di uno che mi ferma la macchina per errore milling
 .o 8 #compreso di 1 per sapere di errore
 .s 4
 .r S
