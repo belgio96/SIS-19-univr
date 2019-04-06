@@ -1,7 +1,9 @@
 .model sommatore4bit
 .inputs ina1 ina2 ina3 ina4 inb1 inb2 inb3 inb4 cin
 .outputs out1 out2 out3 out4 cout
-.subckt SOMMATORE A=A0 B=B0 CIN=CIN O=O0 COUT=C0
-.subckt SOMMATORE A=A1 B=B1 CIN=C0 O=O1 COUT=COUT
-.search sommatore.blif
-.end
+.subckt sommatore1bit in1=ina1 in1=inb1 cin=cin   out=out1 cout=cout1
+.subckt sommatore1bit in1=ina2 in2=inb2 cin=cout1 out=out2 cout=cout2
+.subckt sommatore1bit in1=ina3 in2=inb3 cin=cout2 out=out3 cout=cout3
+.subckt sommatore1bit in1=ina4 in2=inb4 cin=cout3 out=out4 cout=cout
+.search sommatore1bit.blif
+.end 

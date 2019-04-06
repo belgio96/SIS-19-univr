@@ -2,9 +2,9 @@
 .inputs in1 in2 in3 over
 .outputs i/o errMilling GA GB GC GD GE GF
 
-.start_kiss #stati #FSM??
-.i 4
-.o 8 #compreso di 2 per codifica stati
+.start_kiss #stati
+.i 4 # compreso di uno che mi ferma la macchina per errore milling
+.o 8 #compreso di 1 per sapere di errore
 .s 4
 .r S
 # in1 in2/VIN1 in3/VIN2 VIN3 VIN4 VIN5 VIN6 s s i/o err1 err2 err3 GA GB GC GD GE GF NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4

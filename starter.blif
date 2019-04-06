@@ -4,6 +4,7 @@
 
 
 .subckt NA_counter NAin=NAin NAerr=NAerr
+.subckt NB_counter NBin=NB=in NBerr=NBerr
 .subckt NC_cuonter NCin=NCin NCerr=NCerr
 .subckt too_MILLING_counter vIN1=vIN1 vIN2=vIN2 vIN3=vIN3 vIN4=vIN4 vIN5=vIN5 vIN6=vIN6 vOUT1=vOUT1 vOUT2=vOUT2 vOUT3=vOUT3 vOUT4=vOUT4 vOUT5=vOUT5 vOUT6=vOUT6 TOOerr=TOOerr 
 #ottimizzato male perche sempre si fa piu qualcosa o 1 o zero ma sempre si fa
@@ -11,6 +12,7 @@
 .subckt NF_counter NFin=NFin NFerr=NFerr
 
 .search NA_counter.blif
+.search NB_counter.blif
 .search NC_counter.blif
 .search too_MILLING_counter.blif
 .search NE_counter.blif
