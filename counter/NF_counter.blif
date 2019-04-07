@@ -4,7 +4,7 @@
 .subckt rigistro4bit in1=in1 out1=out1 in2=in2 out2=out2 in3=in3 out3=out3 in4=in4 out4=out4
 .subckt sommatore4bit ina1=in1 ina2=in2 ina3=in3 ina4=in4 inb1=zero inb2=zero inb3=zero inb4=NFin cin=zero cout=NFerr
 .subckt zeroCostant out=zero
-.search sommatore4bit.blif
+.search operand/sommatore4bit.blif
 .search zeroCostant.blif
-.search registro4bit.blif
+.search register/registro4bit.blif
 .end 

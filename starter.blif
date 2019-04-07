@@ -11,12 +11,12 @@
 .subckt NE_counter NEin=NEin NEerr=NEerr out1=NE1 out2=nE2 out3=NE3 out4=NBE4
 .subckt NF_counter NFin=NFin NFerr=NFerr out1=NAF1 out2=nF2 out3=NF3 out4=NF4
 
-.search NA_counter.blif
-.search NB_counter.blif
-.search NC_counter.blif
-.search too_MILLING_counter.blif
-.search NE_counter.blif
-.search NF_counter.blif
+.search counter/NA_counter.blif
+.search counter/NB_counter.blif
+.search counter/NC_counter.blif
+.search counter/too_MILLING_counter.blif
+.search counter/NE_counter.blif
+.search counter/NF_counter.blif
 
 
 .names GA GB GC GD GE GF VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 	NA1in NBin NC1in NE1in NF1in vIN1 vIN2 vIN3 vIN4 vIN5 vIN6 vOUT1 vOUT2 vOUT3 vOUT4 vOUT5 vOUT6

@@ -8,6 +8,6 @@
 .subckt sottrattore1bit ina4=in1 inb4=in2 cin=count3 out=out4 cout=cout4
 .subckt sottrattore1bit ina5=in1 inb5=in2 cin=count4 out=out5 cout=cout5
 .subckt sottrattore1bit ina6=in1 inb6=in2 cin=count5 out=out6 cout=cerr
-.search sotTRATTORE1bit.blif
+.search operand/sotTRATTORE1bit.blif
 
 .end 
