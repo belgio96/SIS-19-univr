@@ -1,6 +1,7 @@
 .model sommatore1bit
 .inputs in1 in2 cin
 .outputs out cout
+
 .names in1 in2 temp
 10 1
 01 1
@@ -11,4 +12,5 @@
 11- 1
 1-1 1
 -11 1
+
 .end 

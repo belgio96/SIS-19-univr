@@ -1,0 +1,15 @@
+.model sotTRATTORE1bit
+.inputs in1 in2 cin
+.outputs out cout
+.names in1 in2 temp
+10 1
+.names temp cin out
+10 1
+.names in1 in2 cin cout
+111 1
+# .names in1 in2 out cout
+# 100 10
+# 110 00
+# 111 01
+# 101 00
+.end 

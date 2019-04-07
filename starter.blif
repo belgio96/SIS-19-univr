@@ -3,13 +3,13 @@
 .outputs err1 err2 err3 NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4 over 
 
 
-.subckt NA_counter NAin=NAin NAerr=NAerr
-.subckt NB_counter NBin=NB=in NBerr=NBerr
-.subckt NC_cuonter NCin=NCin NCerr=NCerr
+.subckt NA_counter NAin=NAin NAerr=NAerr out1=NA1 out2=nA2 out3=NA3 out4=NA4
+.subckt NB_counter NBin=NB=in NBerr=NBerr out1=NB1 out2=nB2 out3=NB3 out4=NB4
+.subckt NC_cuonter NCin=NCin NCerr=NCerr out1=NC1 out2=nC2 out3=NC3 out4=NC4
 .subckt too_MILLING_counter vIN1=vIN1 vIN2=vIN2 vIN3=vIN3 vIN4=vIN4 vIN5=vIN5 vIN6=vIN6 vOUT1=vOUT1 vOUT2=vOUT2 vOUT3=vOUT3 vOUT4=vOUT4 vOUT5=vOUT5 vOUT6=vOUT6 TOOerr=TOOerr 
 #ottimizzato male perche sempre si fa piu qualcosa o 1 o zero ma sempre si fa
-.subckt NE_counter NEin=NEin NEerr=NEerr
-.subckt NF_counter NFin=NFin NFerr=NFerr
+.subckt NE_counter NEin=NEin NEerr=NEerr out1=NE1 out2=nE2 out3=NE3 out4=NBE4
+.subckt NF_counter NFin=NFin NFerr=NFerr out1=NAF1 out2=nF2 out3=NF3 out4=NF4
 
 .search NA_counter.blif
 .search NB_counter.blif

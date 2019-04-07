@@ -12,5 +12,5 @@
 .search sotTRATTORE6bit.blif
 .search sommatore8bit.blif
 .search registro8bit.blif
-.search zeroCostant.bliff
+.search zeroCostant.blif
 .end 
