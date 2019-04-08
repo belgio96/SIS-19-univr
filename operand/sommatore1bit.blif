@@ -5,7 +5,7 @@
 .names in1 in2 temp
 10 1
 01 1
-.names temp cout out
+.names temp cin out
 10 1
 01 1
 .names in1 in2 cin cout

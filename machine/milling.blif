@@ -3,17 +3,8 @@
 .inputs GC EM
 .outputs GD errMillling
 
-.names GC EM GD errMilling #ok = GD #err = errMilling
-11 10
-10 01
-00 00
-
+.names GC EM GD  #ok = GD
+11 1
 .end
 
-.start_kiss #stati
-
-
-
-.end_kiss
-
-# vedi da pag 207 lkibro pag 380
+# vedi da pag 207 libro pag 380

@@ -3,15 +3,9 @@
 .inputs GA QI
 .outputs GB GC
 
-.names GA QI GB GC #rotto GB #ok GC
+.names GA QI GB GC #rotto GB ok GC
 10 10
 11 01
-0- 00
-
 .end
 
-.subckt #collega i file
-
-.code #serve per per dire la codifica
-
-## vedi da pag 207 lkibro pag 380
+# vedi da pag 207 lkibro pag 380

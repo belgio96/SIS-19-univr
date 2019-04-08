@@ -5,6 +5,6 @@
 
 #npp language defined fro SIS
 
-## NB: ad ogni ciclo di clock può essere aperto al massimo un gate! <<-- non chiuso
+# NB: ad ogni ciclo di clock può essere aperto al massimo un gate! <<-- non chiuso
 
 #read_blif FSMD.blif

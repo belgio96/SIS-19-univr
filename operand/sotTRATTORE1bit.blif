@@ -7,9 +7,4 @@
 10 1
 .names in1 in2 cin cout
 111 1
-# .names in1 in2 out cout
-# 100 10
-# 110 00
-# 111 01
-# 101 00
 .end 
