@@ -5,12 +5,20 @@
 .names val1 val2 val3 val4 val5 val6 val7 val8 TOOerr
 
 # #~TODO codificare maggiore 11001000 1 #da codificare i 200 
+# .subckt zeroCostant out=t1
+# .subckt zeroCostant out=t2
+# .subckt zeroCostant out=t3
+# .subckt zeroCostant out=t4
+# .subckt zeroCostant out=t5
+# .subckt zeroCostant out=t6
+# .subckt zeroCostant out=t7
+# .subckt zeroCostant out=t8
+
+.subckt registro8bit in1=t1 in2=t2 in3=t3 in4=t4 in5=t5 in6=t6 in7=t7 in8=t8 out1=val1 out2=val2 out3=val3 out4=val4 out5=val5 out6=val6 out7=val7 out8=val8
 
 .subckt sotTRATTORE6bit ina1=vIN1 ina2=vIN2 ina3=vIN3 ina4=vIN4 ina5=vIN5 ina6=vIN6 inb1=vOUT1 inb2=vOUT2 inb3=vOUT3 inb4=vOUT4 inb5=vOUT5 inb6=vOUT6 out1=rest1 out2=rest2 out3=rest3 out4=rest4 out5=rest5 out6=rest6
 
 .subckt sommatore8bit ina1=val1 ina2=val2 ina3=val3 ina4=val4 ina5=val5 ina6=val6 ina7=val7 ina8=val8 inb1=rest1 inb2=rest2 inb3=rest3 inb4=rest4 inb5=rest5 inb6=rest6 inb7=zero inb8=zero cin=zero	out1=t1 out2=t2 out3=t3 out4=t4 out5=t5 out6=t6 out7=t7 out8=t8
-
-.subckt registro8bit in1=t1 in2=t2 in3=t3 in4=t4 in5=t5 in6=t6 in7=t7 in8=t8 out1=val1 out2=val2 out3=val3 out4=val4 out5=val5 out6=val6 out7=val7 out8=val8
 
 .subckt zeroCostant out=zero
 .search operand/sotTRATTORE6bit.blif

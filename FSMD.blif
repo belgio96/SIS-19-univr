@@ -13,6 +13,6 @@
 
 .search start.blif
 .search starter.blif
-.names i/o in1 errMilling 	err1 err2 err3 spegniti!
+# .names i/o in1 errMilling 	err1 err2 err3 spegniti!
 .end 
 #read_blif FSMD.blif

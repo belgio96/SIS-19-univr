@@ -1,6 +1,6 @@
 .model starter #datapath
 .inputs VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 errMilling GA GB GC GD GE GF 
-.outputs NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4 spegniti! #err1 err2 err3
+.outputs NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4 spegniti! err1 err2 err3
 
 .subckt NA_counter NAin=NAin NAerr=NAerr out1=NA1 out2=NA2 out3=NA3 out4=NA4
 .subckt NB_counter NBin=NBin NBerr=NBerr out1=NB1 out2=NB2 out3=NB3 out4=NB4
@@ -54,8 +54,46 @@
 
 ## ~TODO
 
+.names NAerr spegniti! #err1 err2 err3
+1 1
+.names NAerr err1
+1 1
+.names NAerr err2
+1 0
+.names NAerr err3
+1 1
 .names NBerr spegniti! #err1 err2 err3
-1 1#101
+1 1
+.names NBerr err1
+1 1
+.names NBerr err2
+1 0
+.names NBerr err3
+1 1
+.names NBerr spegniti! #err1 err2 err3
+1 1
+.names NBerr err1
+1 1
+.names NBerr err2
+1 0
+.names NBerr err3
+1 1
+.names NBerr spegniti! #err1 err2 err3
+1 1
+.names NBerr err1
+1 1
+.names NBerr err2
+1 0
+.names NBerr err3
+1 1
+.names NBerr spegniti! #err1 err2 err3
+1 1
+.names NBerr err1
+1 1
+.names NBerr err2
+1 0
+.names NBerr err3
+1 1
 # ----1-- 1110
 # -----1- 1010
 # ------1 1001

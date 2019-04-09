@@ -1,13 +1,13 @@
 .model sotTRATTORE6bit
 .inputs ina1 ina2 ina3 ina4 ina5 ina6 inb1 inb2 inb3 inb4 inb5 inb6
-.outputs out1 out2 out3 out4 out5 out6 out7 out8 cerr
+.outputs out1 out2 out3 out4 out5 out6 cerr
 .subckt zeroCostant out=zero
-.subckt sotTRATTORE1bit in1=ina1 in2=inb1 cin=zero out=out1 cout=cout1
-.subckt sotTRATTORE1bit in1=ina2 in2=inb2 cin=count1 out=out2 cout=cout2
-.subckt sotTRATTORE1bit in1=ina3 in2=inb3 cin=count2 out=out3 cout=cout3
-.subckt sotTRATTORE1bit in1=ina4 in2=inb4 cin=count3 out=out4 cout=cout4
-.subckt sotTRATTORE1bit in1=ina5 in2=inb5 cin=count4 out=out5 cout=cout5
-.subckt sotTRATTORE1bit in1=ina6 in2=inb6 cin=count5 out=out6 cout=cerr
+.subckt sotTRATTORE1bit in1=ina1 in2=inb1 cin=zero  out=out1 cout=cout1
+.subckt sotTRATTORE1bit in1=ina2 in2=inb2 cin=cout1 out=out2 cout=cout2
+.subckt sotTRATTORE1bit in1=ina3 in2=inb3 cin=cout2 out=out3 cout=cout3
+.subckt sotTRATTORE1bit in1=ina4 in2=inb4 cin=cout3 out=out4 cout=cout4
+.subckt sotTRATTORE1bit in1=ina5 in2=inb5 cin=cout4 out=out5 cout=cout5
+.subckt sotTRATTORE1bit in1=ina6 in2=inb6 cin=cout5 out=out6 cout=cerr
 .search operand/sotTRATTORE1bit.blif
 .search zeroCostant.blif
 
