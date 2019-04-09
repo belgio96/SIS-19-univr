@@ -4,15 +4,7 @@
 #summer tem var: t1 t2 t3 t4 t5 t6
 .names val1 val2 val3 val4 val5 val6 val7 val8 TOOerr
 
-# #~TODO codificare maggiore 11001000 1 #da codificare i 200 
-# .subckt zeroCostant out=t1
-# .subckt zeroCostant out=t2
-# .subckt zeroCostant out=t3
-# .subckt zeroCostant out=t4
-# .subckt zeroCostant out=t5
-# .subckt zeroCostant out=t6
-# .subckt zeroCostant out=t7
-# .subckt zeroCostant out=t8
+# #~TODO codificare maggiore 11001000 #da codificare i 200 
 
 .subckt registro8bit in1=t1 in2=t2 in3=t3 in4=t4 in5=t5 in6=t6 in7=t7 in8=t8 out1=val1 out2=val2 out3=val3 out4=val4 out5=val5 out6=val6 out7=val7 out8=val8
 
