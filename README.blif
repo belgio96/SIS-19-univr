@@ -1,10 +1,23 @@
-#intrastate state file
-#stop ????
+##package inventory:
 
-# .circ apribilr con logisim
+# File list and brew description: 
+# MACHINE FILES:  
+# FSMD: (the fsmd obviously), with read_blif FSMD.blif we start the machine; the first state on start S i/o = 1 and every gate at 0 (closed);
+# start: (fsm) state code, kiss section. there you'll find the 5 state and outputs;
+# starter: (Datapath) here, throw gates bits input it will select the path for every register. every cycle every register is updated with opportune value. there are also implemented the errors
+# backup folder is an old version of all, before the bug correction the second one before the simplification;
+# counter folder there are the file used to store every gate with quantity chek;
+# machine folder is not useful, just the state implementation by himself;
+# operand folder the file the implements the operations;
+# register folder the files to implement the registers prototype;
+# OTHER FILES:
+# elaborato_VR421742_VR414014.circ file open with Logisim http://www.cburch.com/logisim/ ,basic draw implementation of the circuit, not completed not completed to work
+# sis-language.xml -> npp language defined for SIS
+# flowChart.* are the files created with Microsoft Visio, that’s a map of var direction ~TODO and maybe a state flowchart
+# 3d_machine.skb ~TODO a draw of the machine with gates name and states
 
-#npp language defined fro SIS
-
-# NB: ad ogni ciclo di clock può essere aperto al massimo un gate! <<-- non chiuso
-
-#read_blif FSMD.blif
+# to start the machine call ' read_blif FSMD.blif ' inside a sis eviroment.
+# inputs order:
+# in1 in2/VIN1 in3/VIN2 VIN3 VIN4 VIN5 VIN6
+# outputs order:
+# i/o err1 err2 err3 GA GB GC GD GE GF NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
