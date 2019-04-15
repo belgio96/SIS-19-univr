@@ -3,13 +3,63 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		body,{
+			width 100vW;
+			
+		}
+		.body{
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: justify;
+		}
+		#title{
+			width:60%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 20vh;
+		}
+		#title-text{
+			font-size: 10vh;
+		}
+		#subtitle-text{
+			font-size: 4vh;
+			position: relative;
+			width: 50%;
+			height:20%;
+		}
+		#subtitle-text .left{
+			float:left;
+			width:inherit;
+			height:100%;
+			margin-top:2vw;
+			vertical-align: center;
+		}
+		#subtitle-text .right{
+			float:right;
+			width:inherit;
+			height:100%;
+		}
+	</style>
 </head>
 <body>
 <div id="title">
-	<div>milling machine</div>
-	<div>elaborato <br/>Andrea De Paoli<br/>girdano bellini</div>
+	<div id="title-text">milling machine</div>
+	<div id="subtitle-text">
+		<div class="left">elaborato: </div>
+		<div class="right">Andrea De Paoli<br/>giordano bellini</div>
+	</div>
 </div>
-<div>
-	
+<div id="intro" class="body">
+	<p>
+		The implementation of the machine control system had required four states, one undefined for the starting point of the machine and other three for each section.
+		When turned on the machine require three consecutive bit T taken to the fsm, which will respond with the correct gates opening. The datapath analize gates and according to them will work on the correct registers.
+	</p>
+	<p>
+		Following a flow chart of each file with relative variables between them:
+	</p>
+	<img src="flowChart.png" title="flowchart of inputs/outouts">
+
 </div>
 </body>
