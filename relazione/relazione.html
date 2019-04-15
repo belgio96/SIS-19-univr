@@ -41,25 +41,30 @@
 			width:inherit;
 			height:100%;
 		}
+		.body img{
+			float: center;
 	</style>
 </head>
 <body>
-<div id="title">
-	<div id="title-text">milling machine</div>
-	<div id="subtitle-text">
-		<div class="left">elaborato: </div>
-		<div class="right">Andrea De Paoli<br/>giordano bellini</div>
+	<div id="title">
+		<div id="title-text">milling machine</div>
+		<div id="subtitle-text">
+			<div class="left">elaborato: </div>
+			<div class="right">Andrea De Paoli<br/>giordano bellini</div>
+		</div>
 	</div>
-</div>
-<div id="intro" class="body">
-	<p>
-		The implementation of the machine control system had required four states, one undefined for the starting point of the machine and other three for each section.
-		When turned on the machine require three consecutive bit T taken to the fsm, which will respond with the correct gates opening. The datapath analize gates and according to them will work on the correct registers.
-	</p>
-	<p>
-		Following a flow chart of each file with relative variables between them:
-	</p>
-	<img src="flowChart.png" title="flowchart of inputs/outouts">
+	<div id="intro" class="body">
+		<p>
+			read README.blif first
+		</p>
+		<p>
+			The implementation of the machine control system had required four states, one undefined for the starting point of the machine and other three for each section.
+			When turned on the machine require three consecutive bit T taken to the fsm, which will respond with the correct gates opening. The datapath analize gates and according to them will work on the correct registers.
+		</p>
+		<p>
+			Following a flow chart of each file with relative variables between them:
+		</p>
+		<img src="flowChart.svg" title="flowchart of inputs/outouts">
 
-</div>
+	</div>
 </body>
