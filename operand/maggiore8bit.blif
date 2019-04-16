@@ -1,0 +1,27 @@
+.model maggiore8bit
+.inputs A8 A7 A6 A5 A4 A3 A2 A1
+.outputs MAG
+# #~TODO codificare maggiore 11001000 #da codificare i 200 
+.subckt zeroCostant out=zero
+.subckt unoCostant out=uno
+.subckt xor A=A8 B=uno X=X8
+.subckt xor A=A7 B=uno X=X7
+.subckt xor A=A6 B=zero X=X6
+.subckt xor A=A5 B=zero X=X5
+.subckt xor A=A4 B=uno X=X4
+.subckt xor A=A3 B=zero X=X3
+.subckt xor A=A2 B=zero X=X2
+.subckt xor A=A1 B=zero X=X1
+.names A8 A7 A6 A5 A4 A3 A2 A1 X8 X7 X6 X5 X4 X3 X2 X1 MAG
+1-------1------- 1
+-1------01------ 1
+--1-----001----- 1
+---1----0001---- 1
+----1---00001--- 1
+-----1--000001-- 1
+------1-0000001- 1
+-------100000001 1
+.search operand/xor.blif
+.search register/zeroCostant.blif
+.search register/unoCostant.blif
+.end

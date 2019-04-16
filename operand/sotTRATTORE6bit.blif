@@ -9,6 +9,6 @@
 .subckt sotTRATTORE1bit in1=ina5 in2=inb5 cin=cout4 out=out5 cout=cout5
 .subckt sotTRATTORE1bit in1=ina6 in2=inb6 cin=cout5 out=out6 cout=cerr
 .search operand/sotTRATTORE1bit.blif
-.search zeroCostant.blif
+.search register/zeroCostant.blif
 
 .end 

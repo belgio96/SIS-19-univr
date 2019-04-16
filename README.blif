@@ -9,7 +9,7 @@
 # counter folder there are the file used to store every gate with quantity chek;
 # machine folder is not useful, just the state implementation by himself;
 # operand folder the file the implements the operations;
-# register folder the files to implement the registers prototype;
+# register folder the files to implement the registers prototype and costants;
 # OTHER FILES:
 # elaborato_VR421742_VR414014.circ file open with Logisim http://www.cburch.com/logisim/ ,basic draw implementation of the circuit, not completed not completed to work
 # sis-language.xml -> npp language defined for SIS

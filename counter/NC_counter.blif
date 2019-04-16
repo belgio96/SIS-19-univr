@@ -9,6 +9,6 @@
 .subckt sommatore4bit ina1=in1 ina2=in2 ina3=in3 ina4=in4 inb1=zero inb2=zero inb3=zero inb4=NCin cin=zero cout=NCerr
 .subckt zeroCostant out=zero
 .search operand/sommatore4bit.blif
-.search zeroCostant.blif
+.search register/zeroCostant.blif
 .search register/registro4bit.blif
 .end 

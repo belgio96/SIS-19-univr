@@ -2,9 +2,9 @@
 .inputs vIN1 vIN2 vIN3 vIN4 vIN5 vIN6 vOUT1 vOUT2 vOUT3 vOUT4 vOUT5 vOUT6
 .outputs TOOerr
 #summer tem var: t1 t2 t3 t4 t5 t6
-.names val1 val2 val3 val4 val5 val6 val7 val8 TOOerr
 
 # #~TODO codificare maggiore 11001000 #da codificare i 200 
+.subckt maggiore8bit A8=val8 A7=val7 A6=val6 A5=val5 A4=val4 A3=val3 A2=val2 A1=val1 MAG=TOOerr
 
 .subckt registro8bit in1=t1 in2=t2 in3=t3 in4=t4 in5=t5 in6=t6 in7=t7 in8=t8 out1=val1 out2=val2 out3=val3 out4=val4 out5=val5 out6=val6 out7=val7 out8=val8
 
@@ -13,8 +13,10 @@
 .subckt sommatore8bit ina1=val1 ina2=val2 ina3=val3 ina4=val4 ina5=val5 ina6=val6 ina7=val7 ina8=val8 inb1=rest1 inb2=rest2 inb3=rest3 inb4=rest4 inb5=rest5 inb6=rest6 inb7=zero inb8=zero cin=zero	out1=t1 out2=t2 out3=t3 out4=t4 out5=t5 out6=t6 out7=t7 out8=t8
 
 .subckt zeroCostant out=zero
+
 .search operand/sotTRATTORE6bit.blif
 .search operand/sommatore8bit.blif
 .search register/registro8bit.blif
-.search zeroCostant.blif
+.search register/zeroCostant.blif
+.search operand/maggiore8bit.blif
 .end 
