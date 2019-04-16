@@ -5,3 +5,7 @@
 
 
 # NB: ad ogni ciclo di clock può essere aperto al massimo un gate! <<-- non chiuso#~DONE 
+
+# sis> print_stats
+# FSMD            pi= 7   po=30   nodes=169       latches=28
+# lits(sop)= 541
