@@ -4,7 +4,7 @@
 
 
 #fsm
-.subckt start in1=in1 in2=in2/VIN1 in3=in3/VIN2 spegniti!=spegniti!		i/o=i/o GA=GA GB=GB GC=GC GD=GD GE=GE GF=GF errMilling=errMilling
+.subckt start in1=in1 in2=in2/VIN1 in3=in3/VIN2 spegniti!=spegniti!		i/o=i/o errMilling=errMilling GA=GA GB=GB GC=GC GD=GD GE=GE GF=GF 
 #err solo errore milling, sovrapposizione?? -->var dedicata e codificata verso il datapath
 
 
