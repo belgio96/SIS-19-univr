@@ -1,30 +1,122 @@
-.model start #FSM
+.model start
 .inputs in1 in2 in3 spegniti!
 .outputs i/o errMilling GA GB GC GD GE GF
-
-.start_kiss #stati
-.i 4 # compreso di uno che mi ferma la macchina per errore milling
-.o 8 #compreso di 1 per sapere di errore
+.latch    [2424] LatchOut_v4   1
+.latch    [2425] LatchOut_v5   0
+.start_kiss
+.i 4
+.o 8
+.p 12
 .s 4
 .r S
 0000 S S 00000000
 1110 S B 10100000
-
 ---1 B S 00010000
 0--- B S 00010000
 1--0 B M 10001000
-
 0--0 M S 11000000
 ---1 M S 00000000
 1--0 M A 10000100
-
 0--0 A S 10000010
 0--1 A S 00000010
-
 1--0 A S 10000001
 1--1 A S 00000001
 .end_kiss
-#.code 0000 STOP  00000000 
-
-
-.end 
+.latch_order LatchOut_v4 LatchOut_v5
+.code S 10
+.code B 01
+.code M 11
+.code A 00
+.names in1 spegniti! LatchOut_v4 LatchOut_v5 [2424]
+0--- 1
+-1-- 1
+1-00 1
+1001 1
+.names in1 in3 spegniti! LatchOut_v4 LatchOut_v5 [2425]
+-1-10 1
+1-001 1
+.names in1 in3 spegniti! LatchOut_v4 LatchOut_v5 i/o
+-1-10 1
+--000 1
+1-011 1
+0-011 1
+1-001 1
+.names in1 spegniti! LatchOut_v4 LatchOut_v5 errMilling
+0011 1
+.names in3 LatchOut_v4 LatchOut_v5 GA
+110 1
+.names in1 spegniti! LatchOut_v4 LatchOut_v5 GB
+0-01 1
+-101 1
+.names in1 spegniti! LatchOut_v4 LatchOut_v5 GC
+1001 1
+.names in1 spegniti! LatchOut_v4 LatchOut_v5 GD
+1011 1
+.names in1 LatchOut_v4 LatchOut_v5 GE
+000 1
+.names in1 LatchOut_v4 LatchOut_v5 GF
+100 1
+.exdc
+.inputs in1 in2 in3 spegniti! LatchOut_v4 LatchOut_v5
+.outputs [2424] [2425] i/o errMilling GA GB GC GD GE GF
+.names in1 in2 in3 spegniti! LatchOut_v4 LatchOut_v5 [2424]
+---110 1
+01--10 1
+10--10 1
+0-1-10 1
+1-0-10 1
+.names in1 in2 in3 spegniti! LatchOut_v4 LatchOut_v5 [2425]
+---110 1
+01--10 1
+10--10 1
+0-1-10 1
+1-0-10 1
+.names in1 in2 in3 spegniti! LatchOut_v4 LatchOut_v5 i/o
+---110 1
+01--10 1
+10--10 1
+0-1-10 1
+1-0-10 1
+.names in1 in2 in3 spegniti! LatchOut_v4 LatchOut_v5 errMilling
+---110 1
+01--10 1
+10--10 1
+0-1-10 1
+1-0-10 1
+.names in1 in2 in3 spegniti! LatchOut_v4 LatchOut_v5 GA
+---110 1
+01--10 1
+10--10 1
+0-1-10 1
+1-0-10 1
+.names in1 in2 in3 spegniti! LatchOut_v4 LatchOut_v5 GB
+---110 1
+01--10 1
+10--10 1
+0-1-10 1
+1-0-10 1
+.names in1 in2 in3 spegniti! LatchOut_v4 LatchOut_v5 GC
+---110 1
+01--10 1
+10--10 1
+0-1-10 1
+1-0-10 1
+.names in1 in2 in3 spegniti! LatchOut_v4 LatchOut_v5 GD
+---110 1
+01--10 1
+10--10 1
+0-1-10 1
+1-0-10 1
+.names in1 in2 in3 spegniti! LatchOut_v4 LatchOut_v5 GE
+---110 1
+01--10 1
+10--10 1
+0-1-10 1
+1-0-10 1
+.names in1 in2 in3 spegniti! LatchOut_v4 LatchOut_v5 GF
+---110 1
+01--10 1
+10--10 1
+0-1-10 1
+1-0-10 1
+.end
