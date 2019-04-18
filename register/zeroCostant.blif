@@ -1,4 +1,7 @@
 .model zeroCostant
 .outputs out
 .names out
-.end 
+.end
+
+
+

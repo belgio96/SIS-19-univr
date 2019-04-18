@@ -11,4 +11,4 @@
 .search operand/sotTRATTORE1bit.blif
 .search register/zeroCostant.blif
 
-.end 
+.end

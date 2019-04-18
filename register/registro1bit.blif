@@ -2,5 +2,6 @@
 .inputs in
 .outputs out
 .latch in out re NIL 0
-.end 
+.end
+
 # vedi da pag 207 libro pag 380

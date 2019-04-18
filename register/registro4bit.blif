@@ -7,4 +7,4 @@
 .subckt registro1bit in=in4 out=out4
 .search register/registro1bit.blif
 
-.end 
+.end
