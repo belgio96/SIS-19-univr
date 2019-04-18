@@ -1,6 +1,6 @@
 .model start #FSM
 .inputs in1 in2 in3 spegniti!
-.outputs i/o errMilling GA GB GC GD GE GF
+.outputs io errMilling GA GB GC GD GE GF
 
 .start_kiss #stati
 .i 4 # compreso di uno che mi ferma la macchina per errore milling

@@ -1,17 +1,17 @@
 .model FSMD
 .inputs in1 in2/VIN1 in3/VIN2 VIN3 VIN4 VIN5 VIN6
-.outputs i/o err1 err2 err3 GA GB GC GD GE GF NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
+.outputs ioFSM err1 err2 err3 spegniti! #GA GB GC GD GE GF NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4 
 
 
 #fsm
-.subckt start in1=in1 in2=in2/VIN1 in3=in3/VIN2 spegniti!=spegniti!		i/o=i/o errMilling=errMilling GA=GA GB=GB GC=GC GD=GD GE=GE GF=GF 
+.subckt start in1=in1 in2=in2/VIN1 in3=in3/VIN2 spegniti!=spegniti!		io=ioFSM errMilling=errMilling GA=GA GB=GB GC=GC GD=GD GE=GE GF=GF 
 #err solo errore milling, sovrapposizione?? -->var dedicata e codificata verso il datapath
 
 
 #datapath
 .subckt starter VIN1=in2/VIN1 VIN2=in3/VIN2 VIN3=VIN3 VIN4=VIN4 VIN5=VIN5 VIN6=VIN6 errMilling=errMilling GA=GA GB=GB GC=GC GD=GD GE=GE GF=GF 	err1=err1 err2=err2 err3=err3 NA1=NA1 NA2=NA2 NA3=NA3 NA4=NA4 NB1=NB1 NB2=NB2 NB3=NB3 NB4=NB4 NC1=NC1 NC2=NC2 NC3=NC3 NC4=NC4 NE1=NE1 NE2=NE2 NE3=NE3 NE4=NE4 NF1=NF1 NF2=NF2 NF3=NF3 NF4=NF4 spegniti!=spegniti!
 
-.search start_old.blif
+.search start_old_assigned.blif
 .search starter.blif
 # .names i/o in1 errMilling 	err1 err2 err3 spegniti!
 .end 
