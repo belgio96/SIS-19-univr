@@ -248,130 +248,42 @@
     <wire from="(240,170)" to="(370,170)"/>
     <wire from="(1260,90)" to="(1260,390)"/>
     <wire from="(840,630)" to="(840,680)"/>
-    <comp lib="5" loc="(1330,120)" name="Button">
-      <a name="facing" val="south"/>
-      <a name="label" val="QO"/>
+    <comp lib="6" loc="(1007,295)" name="Text">
+      <a name="text" val="VOUT"/>
     </comp>
-    <comp lib="3" loc="(770,740)" name="Comparator"/>
-    <comp lib="0" loc="(850,750)" name="Constant">
-      <a name="facing" val="west"/>
-      <a name="width" val="8"/>
-      <a name="value" val="0xc8"/>
-    </comp>
-    <comp lib="6" loc="(515,221)" name="Text"/>
-    <comp lib="4" loc="(890,240)" name="Counter">
-      <a name="label" val="NC"/>
-    </comp>
-    <comp lib="6" loc="(565,232)" name="Text"/>
-    <comp lib="4" loc="(1650,340)" name="Counter">
-      <a name="label" val="NE"/>
-    </comp>
-    <comp lib="4" loc="(630,420)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(900,690)" name="Counter">
-      <a name="max" val="0xc8"/>
-      <a name="ongoal" val="stay"/>
-      <a name="label" val="N_scrach"/>
-    </comp>
-    <comp lib="6" loc="(1175,311)" name="Text">
-      <a name="text" val="no gate"/>
-    </comp>
-    <comp lib="0" loc="(100,510)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(647,717)" name="Text">
-      <a name="text" val="cutting too much"/>
-    </comp>
-    <comp lib="1" loc="(1150,250)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-      <a name="label" val="errore"/>
-    </comp>
-    <comp lib="0" loc="(1720,600)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(120,150)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="4" loc="(130,780)" name="J-K Flip-Flop"/>
-    <comp lib="1" loc="(240,170)" name="AND Gate">
-      <a name="inputs" val="3"/>
-      <a name="label" val="start"/>
-    </comp>
-    <comp lib="5" loc="(680,120)" name="Button">
-      <a name="facing" val="south"/>
-      <a name="label" val="QI"/>
-    </comp>
-    <comp lib="1" loc="(1240,520)" name="NOT Gate"/>
-    <comp lib="1" loc="(1080,250)" name="AND Gate">
-      <a name="facing" val="south"/>
+    <comp lib="1" loc="(1410,200)" name="AND Gate">
       <a name="inputs" val="2"/>
       <a name="label" val="ok"/>
     </comp>
-    <comp lib="6" loc="(1129,109)" name="Text">
-      <a name="text" val="milling machine"/>
-    </comp>
-    <comp lib="6" loc="(188,107)" name="Text">
-      <a name="text" val="starter"/>
-    </comp>
-    <comp lib="0" loc="(100,480)" name="Pin">
+    <comp lib="0" loc="(1720,540)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(299,640)" name="Text">
+      <a name="text" val="errors types"/>
+    </comp>
+    <comp lib="1" loc="(1330,260)" name="NOT Gate">
+      <a name="facing" val="south"/>
     </comp>
     <comp lib="0" loc="(120,190)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(120,170)" name="Pin">
-      <a name="tristate" val="false"/>
+    <comp lib="4" loc="(610,290)" name="Counter">
+      <a name="label" val="NA"/>
     </comp>
-    <comp lib="5" loc="(1060,120)" name="Button">
-      <a name="facing" val="south"/>
-      <a name="label" val="EM"/>
+    <comp lib="0" loc="(100,450)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
     </comp>
-    <comp lib="5" loc="(790,350)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(890,190)" name="LED">
-      <a name="facing" val="north"/>
-      <a name="label" val="GC"/>
-    </comp>
-    <comp lib="4" loc="(1170,460)" name="J-K Flip-Flop"/>
-    <comp lib="6" loc="(833,118)" name="Text">
-      <a name="text" val="ispezione before"/>
-    </comp>
-    <comp lib="1" loc="(320,420)" name="AND Gate">
-      <a name="facing" val="north"/>
+    <comp lib="1" loc="(500,190)" name="AND Gate">
       <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-      <a name="label" val="101"/>
-    </comp>
-    <comp lib="5" loc="(1180,290)" name="LED"/>
-    <comp lib="1" loc="(580,130)" name="OR Gate">
-      <a name="inputs" val="3"/>
-      <a name="label" val="iniziare"/>
-    </comp>
-    <comp lib="6" loc="(307,733)" name="Text">
-      <a name="text" val="110: everload di scarti"/>
-    </comp>
-    <comp lib="4" loc="(1620,210)" name="Counter">
-      <a name="label" val="NF"/>
-    </comp>
-    <comp lib="6" loc="(320,711)" name="Text">
-      <a name="text" val="101: overload di un counter"/>
-    </comp>
-    <comp lib="3" loc="(900,450)" name="Subtractor"/>
-    <comp lib="6" loc="(307,336)" name="Text"/>
-    <comp lib="1" loc="(840,170)" name="AND Gate">
       <a name="inputs" val="2"/>
-      <a name="label" val="ok"/>
     </comp>
-    <comp lib="1" loc="(1260,490)" name="NOT Gate"/>
-    <comp lib="4" loc="(380,310)" name="S-R Flip-Flop"/>
-    <comp lib="5" loc="(1500,170)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="label" val="GF"/>
+    <comp lib="6" loc="(515,221)" name="Text"/>
+    <comp lib="1" loc="(240,170)" name="AND Gate">
+      <a name="inputs" val="3"/>
+      <a name="label" val="start"/>
     </comp>
     <comp lib="1" loc="(270,420)" name="AND Gate">
       <a name="facing" val="north"/>
@@ -382,89 +294,143 @@
     <comp lib="6" loc="(831,321)" name="Text">
       <a name="text" val="VIN"/>
     </comp>
-    <comp lib="6" loc="(299,688)" name="Text">
-      <a name="text" val="010: troppo scarto"/>
+    <comp lib="6" loc="(647,717)" name="Text">
+      <a name="text" val="cutting too much"/>
     </comp>
-    <comp lib="5" loc="(600,230)" name="LED">
-      <a name="facing" val="north"/>
-      <a name="label" val="GA"/>
-    </comp>
-    <comp lib="1" loc="(210,420)" name="AND Gate">
-      <a name="facing" val="north"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-      <a name="label" val="001"/>
-    </comp>
-    <comp lib="4" loc="(610,290)" name="Counter">
-      <a name="label" val="NA"/>
-    </comp>
-    <comp lib="1" loc="(500,190)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="5" loc="(1020,360)" name="Hex Digit Display"/>
-    <comp lib="1" loc="(210,340)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(1420,800)" name="OR Gate">
-      <a name="facing" val="west"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(720,310)" name="AND Gate">
+    <comp lib="1" loc="(1080,250)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="2"/>
-      <a name="label" val="rotto"/>
+      <a name="label" val="ok"/>
+    </comp>
+    <comp lib="0" loc="(120,170)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
     <comp lib="6" loc="(262,509)" name="Text">
       <a name="text" val="errors to stop"/>
     </comp>
-    <comp lib="0" loc="(1720,570)" name="Pin">
+    <comp lib="1" loc="(1150,250)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+      <a name="label" val="errore"/>
+    </comp>
+    <comp lib="6" loc="(1175,311)" name="Text">
+      <a name="text" val="no gate"/>
+    </comp>
+    <comp lib="5" loc="(1060,120)" name="Button">
+      <a name="facing" val="south"/>
+      <a name="label" val="EM"/>
+    </comp>
+    <comp lib="0" loc="(120,150)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(307,733)" name="Text">
+      <a name="text" val="110: everload di scarti NEerr"/>
+    </comp>
+    <comp lib="1" loc="(730,680)" name="NOT Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(740,240)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(100,510)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(100,450)" name="Pin">
+    <comp lib="5" loc="(790,350)" name="Hex Digit Display"/>
+    <comp lib="1" loc="(1110,140)" name="NOT Gate"/>
+    <comp lib="1" loc="(320,420)" name="AND Gate">
+      <a name="facing" val="north"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+      <a name="label" val="101"/>
+    </comp>
+    <comp lib="0" loc="(1720,600)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="6" loc="(1007,295)" name="Text">
-      <a name="text" val="VOUT"/>
-    </comp>
-    <comp lib="1" loc="(1410,200)" name="AND Gate">
+    <comp lib="1" loc="(1240,520)" name="NOT Gate"/>
+    <comp lib="6" loc="(307,336)" name="Text"/>
+    <comp lib="1" loc="(1420,800)" name="OR Gate">
+      <a name="facing" val="west"/>
       <a name="inputs" val="2"/>
-      <a name="label" val="ok"/>
-    </comp>
-    <comp lib="5" loc="(680,340)" name="LED">
-      <a name="facing" val="east"/>
-      <a name="label" val="GB"/>
     </comp>
     <comp lib="1" loc="(1410,300)" name="AND Gate">
       <a name="inputs" val="2"/>
       <a name="label" val="rotto"/>
     </comp>
-    <comp lib="1" loc="(370,420)" name="AND Gate">
-      <a name="facing" val="north"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-      <a name="label" val="110"/>
-    </comp>
-    <comp lib="1" loc="(740,650)" name="NOT Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="6" loc="(298,666)" name="Text">
-      <a name="text" val="001: errore milling"/>
-    </comp>
-    <comp lib="0" loc="(1720,540)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
     <comp lib="5" loc="(1030,270)" name="LED">
       <a name="facing" val="east"/>
       <a name="label" val="GD"/>
     </comp>
-    <comp lib="1" loc="(740,240)" name="NOT Gate">
+    <comp lib="4" loc="(900,690)" name="Counter">
+      <a name="max" val="0xc8"/>
+      <a name="ongoal" val="stay"/>
+      <a name="label" val="N_scrach"/>
+    </comp>
+    <comp lib="6" loc="(833,118)" name="Text">
+      <a name="text" val="ispezione before"/>
+    </comp>
+    <comp lib="6" loc="(298,666)" name="Text">
+      <a name="text" val="001: errore milling"/>
+    </comp>
+    <comp lib="5" loc="(680,120)" name="Button">
       <a name="facing" val="south"/>
+      <a name="label" val="QI"/>
+    </comp>
+    <comp lib="6" loc="(565,232)" name="Text"/>
+    <comp lib="5" loc="(680,340)" name="LED">
+      <a name="facing" val="east"/>
+      <a name="label" val="GB"/>
+    </comp>
+    <comp lib="5" loc="(890,190)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="GC"/>
+    </comp>
+    <comp lib="5" loc="(1020,360)" name="Hex Digit Display"/>
+    <comp lib="4" loc="(130,780)" name="J-K Flip-Flop"/>
+    <comp lib="6" loc="(188,107)" name="Text">
+      <a name="text" val="starter"/>
+    </comp>
+    <comp lib="3" loc="(770,740)" name="Comparator"/>
+    <comp lib="1" loc="(210,340)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(580,130)" name="OR Gate">
+      <a name="inputs" val="3"/>
+      <a name="label" val="iniziare"/>
+    </comp>
+    <comp lib="3" loc="(900,450)" name="Subtractor"/>
+    <comp lib="0" loc="(850,750)" name="Constant">
+      <a name="facing" val="west"/>
+      <a name="width" val="8"/>
+      <a name="value" val="0xc8"/>
+    </comp>
+    <comp lib="6" loc="(299,688)" name="Text">
+      <a name="text" val="010: troppo scarto TOOerr"/>
+    </comp>
+    <comp lib="6" loc="(320,711)" name="Text">
+      <a name="text" val="101: overload di un counter NBerr"/>
+    </comp>
+    <comp lib="1" loc="(840,170)" name="AND Gate">
+      <a name="inputs" val="2"/>
+      <a name="label" val="ok"/>
+    </comp>
+    <comp lib="4" loc="(1170,460)" name="J-K Flip-Flop"/>
+    <comp lib="0" loc="(1720,570)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="4" loc="(630,420)" name="D Flip-Flop"/>
+    <comp lib="6" loc="(1129,109)" name="Text">
+      <a name="text" val="milling machine"/>
+    </comp>
+    <comp lib="0" loc="(100,480)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="5" loc="(1460,340)" name="LED">
       <a name="facing" val="north"/>
@@ -473,15 +439,49 @@
     <comp lib="6" loc="(1437,120)" name="Text">
       <a name="text" val="control after"/>
     </comp>
-    <comp lib="1" loc="(1330,260)" name="NOT Gate">
+    <comp lib="4" loc="(1650,340)" name="Counter">
+      <a name="label" val="NE"/>
+    </comp>
+    <comp lib="5" loc="(600,230)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="GA"/>
+    </comp>
+    <comp lib="4" loc="(1620,210)" name="Counter">
+      <a name="label" val="NF"/>
+    </comp>
+    <comp lib="5" loc="(1500,170)" name="LED">
       <a name="facing" val="south"/>
+      <a name="label" val="GF"/>
     </comp>
-    <comp lib="6" loc="(299,640)" name="Text">
-      <a name="text" val="errors types"/>
+    <comp lib="1" loc="(720,310)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+      <a name="label" val="rotto"/>
     </comp>
-    <comp lib="1" loc="(730,680)" name="NOT Gate">
+    <comp lib="5" loc="(1180,290)" name="LED"/>
+    <comp lib="4" loc="(890,240)" name="Counter">
+      <a name="label" val="NC"/>
+    </comp>
+    <comp lib="5" loc="(1330,120)" name="Button">
+      <a name="facing" val="south"/>
+      <a name="label" val="QO"/>
+    </comp>
+    <comp lib="1" loc="(740,650)" name="NOT Gate">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="1" loc="(1110,140)" name="NOT Gate"/>
+    <comp lib="4" loc="(380,310)" name="S-R Flip-Flop"/>
+    <comp lib="1" loc="(210,420)" name="AND Gate">
+      <a name="facing" val="north"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+      <a name="label" val="001"/>
+    </comp>
+    <comp lib="1" loc="(370,420)" name="AND Gate">
+      <a name="facing" val="north"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+      <a name="label" val="110"/>
+    </comp>
+    <comp lib="1" loc="(1260,490)" name="NOT Gate"/>
   </circuit>
 </project>
