@@ -1,5 +1,5 @@
 .model start
-.inputs in1 in2 in3 spegniti!
+.inputs in1 in2 in3 spegniti
 .outputs io errMilling GA GB GC GD GE GF
 .latch    [2424] LatchOut_v4   1
 .latch    [2425] LatchOut_v5   0
