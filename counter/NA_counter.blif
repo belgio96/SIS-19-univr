@@ -1,16 +1,14 @@
-àààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààà-ààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààààà°àààà°ààà°°àà°°°°ààààààààààààà---àà--.model NA_counter
-.inputs NAin
+.model NA_counter
+.inputs NAin bit1 bit2 bit3 bit4
 .outputs NAerr out1 out2 out3 out4
 
-.subckt zeroCostant out=in1
-.subckt zeroCostant out=in2
-.subckt zeroCostant out=in3
-.subckt zeroCostant out=in4
 .subckt zeroCostant out=zero
+
+.subckt sommatore4bit ina1=in1 ina2=in2 ina3=in3 ina4=in4 inb1=zero inb2=zero inb3=zero inb4=NAin cin=zero cout=NAerr
 
 .subckt registro4bit in1=in1 in2=in2 in3=in3 in4=in4 out1=out1 out2=out2 out3=out3 out4=out4
 
-.subckt sommatore4bit ina1=in1 ina2=in2 ina3=in3 ina4=in4 inb1=zero inb2=zero inb3=zero inb4=NAin cin=zero cout=NAerr
+
 
 .search operand/sommatore4bit.blif
 .search register/zeroCostant.blif

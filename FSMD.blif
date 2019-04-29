@@ -5,7 +5,6 @@
 
 #fsm
 .subckt start in1=in1 in2=in2VIN1 in3=in3VIN2 spegniti=spegniti 	io=ioFSM errMilling=errMilling GA=GA GB=GB GC=GC GD=GD GE=GE GF=GF 
-#err solo errore milling, sovrapposizione?? -->var dedicata e codificata verso il datapath
 
 
 #datapath
@@ -18,6 +17,5 @@
 
 .search startc.blif
 .search starter.blif
-# .names i/o in1 errMilling 	err1 err2 err3 spegniti
 .end 
 #rl FSMD.blif
