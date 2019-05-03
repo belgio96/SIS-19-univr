@@ -1,22 +1,73 @@
 .model too_MILLING_counter
-.inputs vIN1 vIN2 vIN3 vIN4 vIN5 vIN6 vOUT1 vOUT2 vOUT3 vOUT4 vOUT5 vOUT6
+.inputs vIN1 vIN2 vIN3 vIN4 vIN5 vIN6 vOUT1 vOUT2 vOUT3 vOUT4 vOUT5 vOUT6 GC=GC GD=GD
 .outputs TOOerr
-#summer tem var: t1 t2 t3 t4 t5 t6
+#summer temp var: t1 t2 t3 t4 t5 t6
 
-# #~TODO codificare maggiore 11001000 #da codificare i 200 
-.subckt maggiore8bit A8=val8 A7=val7 A6=val6 A5=val5 A4=val4 A3=val3 A2=val2 A1=val1 MAG=TOOerr
+# # ~TODO codificare maggiore 11001000 #da codificare i 200 
 
-.subckt registro8bit in1=t1 in2=t2 in3=t3 in4=t4 in5=t5 in6=t6 in7=t7 in8=t8 out1=val1 out2=val2 out3=val3 out4=val4 out5=val5 out6=val6 out7=val7 out8=val8
+.names GC vin1 outC1 VIN1
+11- 1
+1-1 1
+.names GC vin2 outC2 VIN2
+11- 1
+1-1 1
+.names GC vin3 outC3 VIN3
+11- 1
+1-1 1
+.names GC vin4 outC4 VIN4
+11- 1
+1-1 1
+.names GC vin5 outC5 VIN5
+11- 1
+1-1 1
+.names GC vin6 outC6 VIN6
+11- 1
+1-1 1
 
-.subckt sotTRATTORE6bit ina1=vIN1 ina2=vIN2 ina3=vIN3 ina4=vIN4 ina5=vIN5 ina6=vIN6 inb1=vOUT1 inb2=vOUT2 inb3=vOUT3 inb4=vOUT4 inb5=vOUT5 inb6=vOUT6 out1=rest1 out2=rest2 out3=rest3 out4=rest4 out5=rest5 out6=rest6
+.names GD outC1 sin1
+11 1
+.names GD outC2 sin2
+11 1
+.names GD outC3 sin3
+11 1
+.names GD outC4 sin4
+11 1
+.names GD outC5 sin5
+11 1
+.names GD outC6 sin6
+11 1
 
-.subckt sommatore8bit ina1=val1 ina2=val2 ina3=val3 ina4=val4 ina5=val5 ina6=val6 ina7=val7 ina8=val8 inb1=rest1 inb2=rest2 inb3=rest3 inb4=rest4 inb5=rest5 inb6=rest6 inb7=zero inb8=zero cin=zero	out1=t1 out2=t2 out3=t3 out4=t4 out5=t5 out6=t6 out7=t7 out8=t8
+.names GD vOUT1 VOUT1
+11 1
+.names GD vOUT2 VOUT2
+11 1
+.names GD vOUT3 VOUT3
+11 1
+.names GD vOUT4 VOUT4
+11 1
+.names GD vOUT5 VOUT5
+11 1
+.names GD vOUT6 VOUT6
+11 1
+
+.subckt registro6bit in1=VIN1 in2=VIN2 in3=VIN3 in4=VIN5 in5=VIN5 in6=VIN6 out1=ouC1 out2=outC2 out3=outC3 out4=outC4 out5=outC5 out6=outC6
+
+.subckt sotTRATTORE6bit ina1=sin1 ina2=sin2 ina3=sin3 ina4=sin4 ina5=sin5 ina6=vsin6  inb1=VOUT1 inb2=VOUT2 inb3=VOUT3 inb4=VOUT4 inb5=VOUT5 inb6=VOUT6 			out1=rest1 out2=rest2 out3=rest3 out4=rest4 out5=rest5 out6=rest6
+
+.subckt sommatore8bit ina1=val1 ina2=val2 ina3=val3 ina4=val4 ina5=val5 ina6=val6 ina7=val7 ina8=val8  inb1=rest1 inb2=rest2 inb3=rest3 inb4=rest4 inb5=rest5 inb6=rest6 inb7=zero inb8=zero cin=zero	out1=t1 out2=t2 out3=t3 out4=t4 out5=t5 out6=t6 out7=t7 out8=t8
+
+.subckt maggiore8bit A8=t8 A7=t7 A6=t6 A5=t5 A4=t4 A3=t3 A2=t2 A1=t1 MAG=TOOerr
+
+.subckt registro8bit in1=t1 in2=t2 in3=t3 in4=t4 in5=t5 in6=t6 in7=t7 in8=t8 	out1=val1 out2=val2 out3=val3 out4=val4 out5=val5 out6=val6 out7=val7 out8=val8
+
+
 
 .subckt zeroCostant out=zero
 
 .search operand/sotTRATTORE6bit.blif
 .search operand/sommatore8bit.blif
 .search register/registro8bit.blif
+.search register/registro6bit.blif
 .search register/zeroCostant.blif
 .search operand/maggiore8bit.blif
 .end 
