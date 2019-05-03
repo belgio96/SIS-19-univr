@@ -1,11 +1,7 @@
 .model NB_counter
 .inputs NBin
-.outputs NBerr out1 out2 out3 out4
+.outputs NBerr inr1 inr2 inr3 inr4
 
-# .subckt zeroCostant out=in1
-# .subckt zeroCostant out=in2
-# .subckt zeroCostant out=in3
-# .subckt zeroCostant out=in4
 .subckt zeroCostant out=zero
 .subckt sommatore4bit ina1=in1 ina2=in2 ina3=in3 ina4=in4 inb1=zero inb2=zero inb3=zero inb4=NBin cin=zero	 out1=inr1 out2=inr2 out3=inr3 out4=inr4 cout=NBerr
 
