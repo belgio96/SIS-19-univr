@@ -1,14 +1,19 @@
 .model registroshift4bit
 .inputs in
 .outputs out1 out2 out3 out4 err
-.latch in1 in1t NIL 0
-.latch in2 in2t NIL 0
-.latch in3 in3t NIL 0
-.latch in4 in4t NIL 0
-.names in1 in1t out1
+.names in4
+.names in2
+.names in3
+
+.latch in int re NIL 0
+.latch in2 in2t re NIL 0
+.latch in3 in3t re NIL 0
+.latch in4 in4t re NIL 0
+
+.names in int out1
 10 1
 01 1
-.names in1 in1t temp1
+.names in int temp1
 11 1
 
 .names in2 in2t temp1 out2
@@ -25,7 +30,7 @@
 .names in3 in3t temp2 temp3
 111 1
 
-.names in4 in4t temp3 out4
+.names in int temp3 out4
 110 1
 011 1
 101 1

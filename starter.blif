@@ -2,7 +2,7 @@
 .inputs VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 errMilling GA GB GC GD GE GF 
 .outputs NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4 spegnit1cycle err1 err2 err3
 
-.subckt NA_counter in1 NAin=GA NAerr=NAerr out1=NA1 out2=NA2 out3=NA3 out4=NA4
+.subckt NA_counter NAin=GA NAerr=NAerr out1=NA1 out2=NA2 out3=NA3 out4=NA4
 .subckt NB_counter NBin=GB NBerr=NBerr out1=NB1 out2=NB2 out3=NB3 out4=NB4
 .subckt NC_counter NCin=GC NCerr=NCerr out1=NC1 out2=NC2 out3=NC3 out4=NC4
 .subckt NE_counter NEin=GE NEerr=NEerr out1=NE1 out2=NE2 out3=NE3 out4=NE4
@@ -66,9 +66,9 @@
 ------1 1
 .names errMilling TOOerr NBerr NEerr err1
 # errMilling
-1000 1#0
+#1000 1#0
 # TOOerr
-0100 1#0
+#0100 1#0
 # NB
 0010 1
 # NE
@@ -77,11 +77,11 @@
 
 .names errMilling TOOerr NBerr NEerr err2
 # errMilling
-1000 1#0
+#1000 1#0
 # TOOerr
 0100 1
 # NB
-0010 1#0
+#0010 1#0
 # NE
 0001 1
 
@@ -89,11 +89,11 @@
 # errMilling
 1000 1
 # TOOerr
-0100 1#0
+#0100 1#0
 # NB
 0010 1
 # NE
-0001 1#0
+#0001 1#0
 
 # vedi da pag 207 libro pag 380
 
