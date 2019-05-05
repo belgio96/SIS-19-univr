@@ -6,8 +6,8 @@
 .i 4 # compreso di uno che mi ferma la macchina per errore milling
 .o 8 #compreso di 1 per sapere di errore
 .p 13
-.s 4
-.r S
+.s 4 # stato iniziale ambiguita tra macchina accesa e spenta/ 3 per ogni stato
+.r S 
 
 10-- S S 00000000
 1-0- S S 00000000

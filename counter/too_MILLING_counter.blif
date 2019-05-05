@@ -1,6 +1,6 @@
 .model too_MILLING_counter
 .inputs vIN1 vIN2 vIN3 vIN4 vIN5 vIN6 vOUT1 vOUT2 vOUT3 vOUT4 vOUT5 vOUT6 GC GD
-.outputs TOOerr  outC1 outC2 outC3 outC4 outC5 outC6  val1 val2 val3 val4 val5 val6 val7 val8
+.outputs TOOerr # VIN1 VIN2 VIN3 VIN4 VIN5 VIN6  t1 t2 t3 t4 t5 t6 t7 t8
 #summer temp var: t1 t2 t3 t4 t5 t6
 
 # # ~TODO codificare maggiore 11001000 #da codificare i 200 
@@ -10,7 +10,7 @@
 1-1 1
 .names GC vIN2 outC2 VIN2
 11- 1
-1-- 1
+1-1 1
 .names GC vIN3 outC3 VIN3
 11- 1
 1-1 1
@@ -52,11 +52,11 @@
 
 .subckt registro6bit in1=VIN1 in2=VIN2 in3=VIN3 in4=VIN4 in5=VIN5 in6=VIN6 out1=outC1 out2=outC2 out3=outC3 out4=outC4 out5=outC5 out6=outC6
 
-.subckt sotTRATTORE6bit ina1=sin1 ina2=sin2 ina3=sin3 ina4=sin4 ina5=sin5 ina6=sin6  inb1=VOUT1 inb2=VOUT2 inb3=VOUT3 inb4=VOUT4 inb5=VOUT5 inb6=VOUT6 			out1=rest1 out2=rest2 out3=rest3 out4=rest4 out5=rest5 out6=rest6
+.subckt sotTRATTORE6bit ina1=sin1 ina2=sin2 ina3=sin3 ina4=sin4 ina5=sin5 ina6=sin6  inb1=VOUT1 inb2=VOUT2 inb3=VOUT3 inb4=VOUT4 inb5=VOUT5 inb6=VOUT6 			out1=rest1 out2=rest2 out3=rest3 out4=rest4 out5=rest5 out6=rest6 cerr=SOTerr #possibile nuovo tipo di errore
 
-.subckt sommatore8bit ina1=val1 ina2=val2 ina3=val3 ina4=val4 ina5=val5 ina6=val6 ina7=val7 ina8=val8  inb1=rest1 inb2=rest2 inb3=rest3 inb4=rest4 inb5=rest5 inb6=rest6 inb7=zero inb8=zero cin=zero	out1=t1 out2=t2 out3=t3 out4=t4 out5=t5 out6=t6 out7=t7 out8=t8
+.subckt sommatore8bit ina1=val1 ina2=val2 ina3=val3 ina4=val4 ina5=val5 ina6=val6 ina7=val7 ina8=val8  inb1=rest1 inb2=rest2 inb3=rest3 inb4=rest4 inb5=rest5 inb6=rest6 inb7=zero inb8=zero cin=zero	out1=t1 out2=t2 out3=t3 out4=t4 out5=t5 out6=t6 out7=t7 out8=t8 COUT=SUMerr #possibile nuovo tipo di errore
 
-.subckt maggiore8bit A8=val8 A7=val7 A6=val6 A5=val5 A4=val4 A3=val3 A2=val2 A1=val1 MAG=TOOerr
+.subckt maggiore8bit A8=t8 A7=t7 A6=t6 A5=t5 A4=t4 A3=t3 A2=t2 A1=t1 MAG=TOOerr
 
 .subckt registro8bit in1=t1 in2=t2 in3=t3 in4=t4 in5=t5 in6=t6 in7=t7 in8=t8 	out1=val1 out2=val2 out3=val3 out4=val4 out5=val5 out6=val6 out7=val7 out8=val8
 

@@ -1,13 +1,13 @@
 .model sommatore8bit
 .inputs ina1 ina2 ina3 ina4 ina5 ina6 ina7 ina8 inb1 inb2 inb3 inb4 inb5 inb6 inb7 inb8 cin
 .outputs out1 out2 out3 out4 out5 out6 out7 out8 COUT
-.subckt sommatore1bit in1=ina1 in2=inb1 cout=cout1 out=out1 cin=cin
-.subckt sommatore1bit in1=ina2 in2=inb2 cin=cout1 cout=cout2 out=out2
-.subckt sommatore1bit in1=ina3 in2=inb3 cin=cout2 cout=cout3 out=out3
-.subckt sommatore1bit in1=ina4 in2=inb4 cin=cout3 cout=cout4 out=out4
-.subckt sommatore1bit in1=ina5 in2=inb5 cin=cout4 cout=cout5 out=out5
-.subckt sommatore1bit in1=ina6 in2=inb6 cin=cout5 cout=cout6 out=out6
-.subckt sommatore1bit in1=ina7 in2=inb7 cin=cout6 cout=cout7 out=out7
-.subckt sommatore1bit in1=ina8 in2=inb8 cin=cout7 cout=COUT  out=out8
+.subckt sommatore1bit in1=ina8 in2=inb8 cin=cin    out=out8 cout=cout1
+.subckt sommatore1bit in1=ina7 in2=inb7 cin=cout1  out=out7 cout=cout2
+.subckt sommatore1bit in1=ina6 in2=inb6 cin=cout2  out=out6 cout=cout3
+.subckt sommatore1bit in1=ina5 in2=inb5 cin=cout3  out=out5 cout=cout4
+.subckt sommatore1bit in1=ina4 in2=inb4 cin=cout4  out=out4 cout=cout5
+.subckt sommatore1bit in1=ina3 in2=inb3 cin=cout5  out=out3 cout=cout6
+.subckt sommatore1bit in1=ina2 in2=inb2 cin=cout6  out=out2 cout=cout7
+.subckt sommatore1bit in1=ina1 in2=inb1 cin=cout7  out=out1 cout=COUT  
 .search operand/sommatore1bit.blif
 .end
