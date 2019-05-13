@@ -1,0 +1,514 @@
+.model FSMD
+.inputs in1 in2VIN1 in3VIN2 VIN3 VIN4 VIN5 VIN6
+.outputs ioFSM err1 err2 err3 GA GB GC GD GE GF NA1 NA2 NA3 NA4 NB1 NB2 NB3 \
+NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
+.latch    [2675] LatchOut_v4   1
+.latch    [2676] LatchOut_v5   1
+.latch    spegniti spegnit1cycle re NIL 0
+.latch    NF1 [4828] re NIL 0
+.latch    NF2 in2 re NIL 0
+.latch    NF3 in3 re NIL 0
+.latch    NF4 in4 re NIL 0
+.latch    NB1 [4558] re NIL 0
+.latch    NB2 [4569] re NIL 0
+.latch    NB3 [4571] re NIL 0
+.latch    NB4 [4573] re NIL 0
+.latch    NE1 [4595] re NIL 0
+.latch    NE2 [4606] re NIL 0
+.latch    NE3 [4608] re NIL 0
+.latch    NE4 [4610] re NIL 0
+.latch    NC1 [4616] re NIL 0
+.latch    NC2 [4627] re NIL 0
+.latch    NC3 [4629] re NIL 0
+.latch    NC4 [4631] re NIL 0
+.latch    NA1 [4637] re NIL 0
+.latch    NA2 [4648] re NIL 0
+.latch    NA3 [4650] re NIL 0
+.latch    NA4 [4652] re NIL 0
+.latch    [4670] outC1 re NIL 0
+.latch    [4672] outC2 re NIL 0
+.latch    [4674] outC3 re NIL 0
+.latch    [4676] outC4 re NIL 0
+.latch    [4678] outC5 re NIL 0
+.latch    [4680] outC6 re NIL 0
+.latch    t1 val1 re NIL 0
+.latch    t2 val2 re NIL 0
+.latch    t3 val3 re NIL 0
+.latch    t4 val4 re NIL 0
+.latch    t5 val5 re NIL 0
+.latch    t6 val6 re NIL 0
+.latch    t7 val7 re NIL 0
+.latch    t8 val8 re NIL 0
+.names in1 in2VIN1 in3VIN2 spegnit1cycle LatchOut_v4 LatchOut_v5 ioFSM
+---0-0 1
+1--001 1
+111-11 1
+.names errMilling TOOerr NBerr NEerr err1
+0001 1
+0010 1
+.names errMilling TOOerr NBerr NEerr err2
+0001 1
+0100 1
+.names errMilling TOOerr NBerr NEerr err3
+0010 1
+1000 1
+.names in1 in2VIN1 in3VIN2 LatchOut_v4 LatchOut_v5 GA
+11111 1
+.names in1 spegnit1cycle LatchOut_v4 LatchOut_v5 GB
+0-01 1
+-101 1
+.names in1 spegnit1cycle LatchOut_v4 LatchOut_v5 GC
+1001 1
+.names in1 spegnit1cycle LatchOut_v4 LatchOut_v5 GD
+1010 1
+.names in1 LatchOut_v4 LatchOut_v5 GE
+000 1
+.names in1 LatchOut_v4 LatchOut_v5 GF
+100 1
+.names [4640] [4639] NA1
+01 1
+10 1
+.names [4641] [4642] NA2
+01 1
+10 1
+.names [4643] [4644] NA3
+01 1
+10 1
+.names [4645] [4638] NA4
+01 1
+10 1
+.names [4561] [4560] NB1
+01 1
+10 1
+.names [4562] [4563] NB2
+01 1
+10 1
+.names [4564] [4565] NB3
+01 1
+10 1
+.names [4566] [4559] NB4
+01 1
+10 1
+.names [4619] [4618] NC1
+01 1
+10 1
+.names [4620] [4621] NC2
+01 1
+10 1
+.names [4622] [4623] NC3
+01 1
+10 1
+.names [4624] [4617] NC4
+01 1
+10 1
+.names [4598] [4597] NE1
+01 1
+10 1
+.names [4599] [4600] NE2
+01 1
+10 1
+.names [4601] [4602] NE3
+01 1
+10 1
+.names [4603] [4596] NE4
+01 1
+10 1
+.names [4350] cout3 NF1
+01 1
+10 1
+.names [4349] cout2 NF2
+01 1
+10 1
+.names [4348] cout1 NF3
+01 1
+10 1
+.names temp zero NF4
+01 1
+10 1
+.names in1 spegnit1cycle LatchOut_v4 LatchOut_v5 errMilling
+0010 1
+.names in1 in2VIN1 in3VIN2 spegnit1cycle LatchOut_v4 LatchOut_v5 [2675]
+0----- 1
+---1-- 1
+-0--11 1
+--0-11 1
+1---00 1
+1--001 1
+.names in1 in2VIN1 in3VIN2 spegnit1cycle LatchOut_v4 LatchOut_v5 [2676]
+0----- 1
+---1-- 1
+-0--11 1
+--0-11 1
+1---00 1
+111-11 1
+.names [4637] [4638] [4640]
+01 1
+10 1
+.names [4648] [4638] [4642] [4639]
+11- 1
+1-1 1
+-11 1
+.names [4648] [4638] [4641]
+01 1
+10 1
+.names [4650] [4638] [4644] [4642]
+11- 1
+1-1 1
+-11 1
+.names [4650] [4638] [4643]
+01 1
+10 1
+.names [4652] GA [4638] [4644]
+11- 1
+1-1 1
+-11 1
+.names [4652] GA [4645]
+01 1
+10 1
+.names [4638]
+.names [4558] [4559] [4561]
+01 1
+10 1
+.names [4569] [4559] [4563] [4560]
+11- 1
+1-1 1
+-11 1
+.names [4569] [4559] [4562]
+01 1
+10 1
+.names [4571] [4559] [4565] [4563]
+11- 1
+1-1 1
+-11 1
+.names [4571] [4559] [4564]
+01 1
+10 1
+.names [4573] GB [4559] [4565]
+11- 1
+1-1 1
+-11 1
+.names [4573] GB [4566]
+01 1
+10 1
+.names [4559]
+.names [4616] [4617] [4619]
+01 1
+10 1
+.names [4627] [4617] [4621] [4618]
+11- 1
+1-1 1
+-11 1
+.names [4627] [4617] [4620]
+01 1
+10 1
+.names [4629] [4617] [4623] [4621]
+11- 1
+1-1 1
+-11 1
+.names [4629] [4617] [4622]
+01 1
+10 1
+.names [4631] GC [4617] [4623]
+11- 1
+1-1 1
+-11 1
+.names [4631] GC [4624]
+01 1
+10 1
+.names [4617]
+.names [4595] [4596] [4598]
+01 1
+10 1
+.names [4606] [4596] [4600] [4597]
+11- 1
+1-1 1
+-11 1
+.names [4606] [4596] [4599]
+01 1
+10 1
+.names [4608] [4596] [4602] [4600]
+11- 1
+1-1 1
+-11 1
+.names [4608] [4596] [4601]
+01 1
+10 1
+.names [4610] GE [4596] [4602]
+11- 1
+1-1 1
+-11 1
+.names [4610] GE [4603]
+01 1
+10 1
+.names [4596]
+.names [4828] zero [4350]
+01 1
+10 1
+.names in2 zero cout2 cout3
+11- 1
+1-1 1
+-11 1
+.names in2 zero [4349]
+01 1
+10 1
+.names in3 zero cout1 cout2
+11- 1
+1-1 1
+-11 1
+.names in3 zero [4348]
+01 1
+10 1
+.names in4 GF zero cout1
+11- 1
+1-1 1
+-11 1
+.names in4 GF temp
+01 1
+10 1
+.names zero
+.names t8 t7 t6 t5 t4 t3 t2 t1 X8 X7 X6 X5 X4 X3 X2 X1 TOOerr
+1-------1------- 1
+-1------01------ 1
+--1-----001----- 1
+---1----0001---- 1
+----1---00001--- 1
+-----1--000001-- 1
+------1-0000001- 1
+-------100000001 1
+.names [4558] [4559] [4560] NBerr
+11- 1
+1-1 1
+-11 1
+.names [4595] [4596] [4597] NEerr
+11- 1
+1-1 1
+-11 1
+.names [4637] [4638] [4639] NAerr
+11- 1
+1-1 1
+-11 1
+.names [4616] [4617] [4618] NCerr
+11- 1
+1-1 1
+-11 1
+.names [4828] zero cout3 NFerr
+11- 1
+1-1 1
+-11 1
+.names GC in2VIN1 vIN1
+11 1
+.names GC in3VIN2 vIN2
+11 1
+.names GC VIN3 vIN3
+11 1
+.names GC VIN4 vIN4
+11 1
+.names GC VIN5 vIN5
+11 1
+.names GC VIN6 vIN6
+11 1
+.names GD in2VIN1 vOUT1
+11 1
+.names GD in3VIN2 vOUT2
+11 1
+.names GD VIN3 vOUT3
+11 1
+.names GD VIN4 vOUT4
+11 1
+.names GD VIN5 vOUT5
+11 1
+.names GD VIN6 vOUT6
+11 1
+.names [4728] [4713] t8
+01 1
+10 1
+.names [4352] [4727] t7
+01 1
+10 1
+.names [4353] [4725] t6
+01 1
+10 1
+.names [4354] [4723] t5
+01 1
+10 1
+.names [4355] cout4 t4
+01 1
+10 1
+.names [4356] cout5 t3
+01 1
+10 1
+.names [4357] cout6 t2
+01 1
+10 1
+.names [4358] cout7 t1
+01 1
+10 1
+.names t8 uno X8
+01 1
+10 1
+.names t7 uno X7
+01 1
+10 1
+.names t6 [4402] X6
+01 1
+10 1
+.names t5 [4402] X5
+01 1
+10 1
+.names t4 uno X4
+01 1
+10 1
+.names t3 [4402] X3
+01 1
+10 1
+.names t2 [4402] X2
+01 1
+10 1
+.names t1 [4402] X1
+01 1
+10 1
+.names errMilling NAerr NBerr NCerr NEerr NFerr spegniti
+1----- 1
+-1---- 1
+--1--- 1
+---1-- 1
+----1- 1
+-----1 1
+.names val8 [4713] [4728]
+01 1
+10 1
+.names [4713]
+.names val7 [4713] [4352]
+01 1
+10 1
+.names [4713] [4727]
+1 1
+.names val6 rest6 [4353]
+01 1
+10 1
+.names val7 [4713] [4727] [4725]
+11- 1
+1-1 1
+-11 1
+.names val5 rest5 [4354]
+01 1
+10 1
+.names val6 rest6 [4725] [4723]
+11- 1
+1-1 1
+-11 1
+.names val4 rest4 [4355]
+01 1
+10 1
+.names val5 rest5 [4723] cout4
+11- 1
+1-1 1
+-11 1
+.names val3 rest3 [4356]
+01 1
+10 1
+.names val4 rest4 cout4 cout5
+11- 1
+1-1 1
+-11 1
+.names val2 rest2 [4357]
+01 1
+10 1
+.names val3 rest3 cout5 cout6
+11- 1
+1-1 1
+-11 1
+.names val1 rest1 [4358]
+01 1
+10 1
+.names val2 rest2 cout6 cout7
+11- 1
+1-1 1
+-11 1
+.names uno
+ 1
+.names [4402]
+.names GC vIN1 outC1 [4670]
+11- 1
+1-1 1
+.names GC vIN2 outC2 [4672]
+11- 1
+1-1 1
+.names GC vIN3 outC3 [4674]
+11- 1
+1-1 1
+.names GC vIN4 outC4 [4676]
+11- 1
+1-1 1
+.names GC vIN5 outC5 [4678]
+11- 1
+1-1 1
+.names GC vIN6 outC6 [4680]
+11- 1
+1-1 1
+.names GD outC1 sin1
+11 1
+.names GD outC2 sin2
+11 1
+.names GD outC3 sin3
+11 1
+.names GD outC4 sin4
+11 1
+.names GD outC5 sin5
+11 1
+.names GD outC6 sin6
+11 1
+.names GD vOUT1 VOUT1
+11 1
+.names GD vOUT2 VOUT2
+11 1
+.names GD vOUT3 VOUT3
+11 1
+.names GD vOUT4 VOUT4
+11 1
+.names GD vOUT5 VOUT5
+11 1
+.names GD vOUT6 VOUT6
+11 1
+.names [4391] [4469] rest1
+10 1
+.names sin1 VOUT1 [4391]
+10 1
+.names sin2 VOUT2 [4471] [4469]
+111 1
+.names sin3 VOUT3 [4473] [4471]
+111 1
+.names [4390] [4471] rest2
+10 1
+.names sin2 VOUT2 [4390]
+10 1
+.names sin4 VOUT4 [4475] [4473]
+111 1
+.names [4389] [4473] rest3
+10 1
+.names sin3 VOUT3 [4389]
+10 1
+.names sin5 VOUT5 [4477] [4475]
+111 1
+.names [4388] [4475] rest4
+10 1
+.names sin4 VOUT4 [4388]
+10 1
+.names sin6 VOUT6 [4479] [4477]
+111 1
+.names [4387] [4477] rest5
+10 1
+.names sin5 VOUT5 [4387]
+10 1
+.names [4479]
+.names [4478] [4479] rest6
+10 1
+.names sin6 VOUT6 [4478]
+10 1
+.names sin1 VOUT1 [4469] SOTerr
+111 1
+.names val1 rest1 cout7 SUMerr
+11- 1
+1-1 1
+-11 1
+.end
