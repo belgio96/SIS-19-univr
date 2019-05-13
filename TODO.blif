@@ -9,3 +9,8 @@
 # sis> print_stats
 # FSMD            pi= 7   po=30   nodes=169       latches=28
 # lits(sop)=
+
+# now
+# remove folders
+# errors code not working
+# ad ogni ciclo non deve richiedere 1 1 1 - - - - ma solo nel primo
