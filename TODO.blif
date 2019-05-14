@@ -1,15 +1,22 @@
-
-# code other errors
+# for future:
+# 
 # conclude to work the .circ file
-#intrastate state file
-
-
-# NB: ad ogni ciclo di clock può essere aperto al massimo un gate! <<-- non chiuso# ~DONE 
 
 # stats
 
-# now
-# remove folders
+# now:
+# 
 # errors code not working
 # ad ogni ciclo non deve richiedere 1 1 1 - - - - ma solo nel primo
 # rivedere sottrattore
+
+
+# Un file Relazione.pdf con una relazione del progetto che affronti nel dettaglio almeno i seguenti punti:
+	# Architettura generale del circuito
+	# Diagramma degli stati del controllore
+	# Architettura del datapath
+	# Statistiche del circuito prima e dopo l'ottimizzazione
+	# Numero di gates e ritardo dopo la mappatura
+	# Descrizione delle scelte progettuali effettuate
+
+# NB: ad ogni ciclo di clock può essere aperto al massimo un gate! <<-- non chiuso# ~DONE 
