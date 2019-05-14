@@ -64,10 +64,10 @@
 
 .subckt zeroCostant out=zero
 
-.search operand/sotTRATTORE6bit.blif
-.search operand/sommatore8bit.blif
-.search register/registro8bit.blif
-.search register/registro6bit.blif
-.search register/zeroCostant.blif
-.search operand/maggiore8bit.blif
+.search sotTRATTORE6bit.blif
+.search sommatore8bit.blif
+.search registro8bit.blif
+.search registro6bit.blif
+.search zeroCostant.blif
+.search maggiore8bit.blif
 .end 

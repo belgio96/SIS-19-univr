@@ -21,8 +21,8 @@
 -----1--000001-- 1
 ------1-0000001- 1
 -------100000001 1
-.search operand/xor.blif
-.search register/zeroCostant.blif
-.search register/unoCostant.blif
+.search xor.blif
+.search zeroCostant.blif
+.search unoCostant.blif
 .end
 
