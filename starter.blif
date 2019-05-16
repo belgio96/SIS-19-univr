@@ -12,12 +12,12 @@
 
 #ottimizzato male perche sempre si fa piu qualcosa o 1 o zero ma sempre si fa
 
-.search counter/NA_counter.blif
-.search counter/NB_counter.blif
-.search counter/NC_counter.blif
-.search counter/NE_counter.blif
-.search counter/NF_counter.blif
-.search counter/too_MILLING_counter.blif
+.search NA_counter.blif
+.search NB_counter.blif
+.search NC_counter.blif
+.search NE_counter.blif
+.search NF_counter.blif
+.search too_MILLING_counter.blif
 
 .latch spegniti spegnit1cycle re NIL 0
 

@@ -15,13 +15,13 @@
 	<style type="text/css">
 	<![CDATA[
 		.st1 {fill:#4672c4;stroke:#c7c8c8;stroke-width:0.25}
-		.st2 {fill:#feffff;font-family:OpenDyslexic;font-size:1.33333em}
+		.st2 {fill:#feffff;font-family:Calibri;font-size:0.833336em}
 		.st3 {font-size:1em}
-		.st4 {marker-end:url(#mrkr4-17);stroke:#4672c4;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
-		.st5 {fill:#4672c4;fill-opacity:1;stroke:#4672c4;stroke-opacity:1;stroke-width:0.28409090909091}
-		.st6 {fill:#feffff;font-family:Calibri;font-size:0.666664em}
-		.st7 {fill:#feffff;font-family:Calibri;font-size:0.833336em}
-		.st8 {marker-end:url(#mrkr4-182);stroke:#4672c4;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st4 {fill:#feffff;font-family:Calibri;font-size:0.666664em}
+		.st5 {marker-end:url(#mrkr4-24);stroke:#4672c4;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st6 {fill:#4672c4;fill-opacity:1;stroke:#4672c4;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st7 {fill:#feffff;font-family:OpenDyslexic;font-size:1.00001em}
+		.st8 {marker-end:url(#mrkr4-24);marker-start:url(#mrkr4-138);stroke:#4672c4;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
 		.st9 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
@@ -30,13 +30,13 @@
 		<g id="lend4">
 			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
 		</g>
-		<marker id="mrkr4-17" class="st5" v:arrowType="4" v:arrowSize="2" v:setback="7.04" refX="-7.04" orient="auto"
+		<marker id="mrkr4-24" class="st6" v:arrowType="4" v:arrowSize="2" v:setback="7.04" refX="-7.04" orient="auto"
 				markerUnits="strokeWidth" overflow="visible">
 			<use xlink:href="#lend4" transform="scale(-3.52,-3.52) "/>
 		</marker>
-		<marker id="mrkr4-182" class="st5" v:arrowType="4" v:arrowSize="2" v:setback="0" refX="-0" orient="auto"
+		<marker id="mrkr4-138" class="st6" v:arrowType="4" v:arrowSize="2" v:setback="6.68" refX="6.68" orient="auto"
 				markerUnits="strokeWidth" overflow="visible">
-			<use xlink:href="#lend4" transform="scale(-3.52,-3.52) "/>
+			<use xlink:href="#lend4" transform="scale(3.52) "/>
 		</marker>
 	</defs>
 	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
@@ -46,80 +46,55 @@
 		<title>first</title>
 		<v:pageProperties v:drawingScale="1" v:pageScale="1" v:drawingUnits="0" v:shadowOffsetX="9" v:shadowOffsetY="-9"/>
 		<v:layer v:name="Connector" v:index="0"/>
-		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(225,-684)">
-			<title>Rectangle</title>
-			<desc>FSMD</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="54" cy="805.89" width="108" height="72"/>
-			<rect x="0" y="769.89" width="108" height="72" class="st1"/>
-			<text x="31.46" y="810.69" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>FSMD</text>		</g>
-		<g id="shape3-4" v:mID="3" v:groupContext="shape" transform="translate(18,-549)">
+		<g id="shape3-1" v:mID="3" v:groupContext="shape" transform="translate(164.006,-648.375)">
 			<title>Rectangle.3</title>
-			<desc>STARTER datapath</desc>
+			<desc>NA NB NC NE NF spegniti! err1 err2 err3</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="54" cy="805.89" width="108" height="72"/>
-			<rect x="0" y="769.89" width="108" height="72" class="st1"/>
-			<text x="13.65" y="801.09" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>STARTER<v:lf/><tspan
-						x="16.14" dy="1.2em" class="st3">datapath</tspan></text>		</g>
-		<g id="shape4-8" v:mID="4" v:groupContext="shape" transform="translate(450,-549)">
+			<v:textRect cx="36.8437" cy="817.327" width="73.69" height="49.125"/>
+			<rect x="0" y="792.765" width="73.6875" height="49.125" class="st1"/>
+			<text x="9.82" y="808.12" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>NA NB NC NE <tspan
+						x="12.54" dy="1.2em" class="st3">NF spegniti! </tspan><tspan x="9.06" dy="1.232em" class="st3">err1 err2 err3</tspan></text>		</g>
+		<g id="shape4-6" v:mID="4" v:groupContext="shape" transform="translate(355.725,-632.25)">
 			<title>Rectangle.4</title>
-			<desc>START FSM</desc>
+			<desc>io errMilling GA GB GC GD GE GF</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="54" cy="805.89" width="108" height="72"/>
-			<rect x="0" y="769.89" width="108" height="72" class="st1"/>
-			<text x="24.29" y="801.09" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>START<v:lf/><tspan
-						x="37.54" dy="1.2em" class="st3">FSM</tspan></text>		</g>
-		<g id="shape6-12" v:mID="6" v:groupContext="shape" v:layerMember="0" transform="translate(333,-711)">
-			<title>Dynamic connector.6</title>
-			<path d="M0 832.89 L135.83 832.89" class="st4"/>
-		</g>
-		<g id="shape7-18" v:mID="7" v:groupContext="shape" v:layerMember="0" transform="translate(225,-711)">
-			<title>Dynamic connector</title>
-			<path d="M0 832.89 L-117.84 832.89" class="st4"/>
-		</g>
-		<g id="shape8-23" v:mID="8" v:groupContext="shape" transform="translate(43.875,-701.25)">
+			<v:textRect cx="47.25" cy="823.14" width="94.51" height="37.5"/>
+			<rect x="0" y="804.39" width="94.5" height="37.5" class="st1"/>
+			<text x="8.33" y="816.54" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>io errMilling GA GB <tspan
+						x="20.76" dy="1.74em" class="st3">GC GD GE GF</tspan></text>		</g>
+		<g id="shape8-10" v:mID="8" v:groupContext="shape" transform="translate(67.3918,-715.5)">
 			<title>Ellipse</title>
-			<desc>VIN1 VIN2 VIN3 VIN4 VIN5 VIN6 errMilling GA GB GC GD GE GF</desc>
+			<desc>VIN1 errMilling GA GB GC GD GE GF</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="28.125" cy="823.14" width="49.22" height="32.8125"/>
-			<path d="M0 823.14 A28.125 18.75 0 1 1 56.25 823.14 A28.125 18.75 0 0 1 0 823.14 Z" class="st1"/>
-			<text x="11.45" y="801.54" class="st6" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>VIN1 VIN2 <tspan
-						x="11.45" dy="1.2em" class="st3">VIN3 VIN4 </tspan><tspan x="11.45" dy="1.2em" class="st3">VIN5 VIN6 </tspan><tspan
-						x="12.27" dy="1.2em" class="st3">errMilling </tspan><tspan x="12.12" dy="1.2em" class="st3">GA GB GC </tspan><tspan
-						x="12.49" dy="1.2em" class="st3">GD GE GF </tspan> </text>		</g>
-		<g id="shape9-31" v:mID="9" v:groupContext="shape" v:layerMember="0" transform="translate(63,-701.25)">
-			<title>Dynamic connector.9</title>
-			<path d="M9 841.89 L9 915.1" class="st4"/>
-		</g>
-		<g id="shape10-36" v:mID="10" v:groupContext="shape" transform="translate(259.875,-783)">
+			<v:textRect cx="43.3125" cy="825.202" width="75.8" height="29.2032"/>
+			<path d="M0 825.2 A43.3125 16.6875 0 1 1 86.63 825.2 A43.3125 16.6875 0 1 1 -0 825.2 Z" class="st1"/>
+			<text x="12.92" y="822.8" class="st4" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>VIN1 errMilling GA <tspan
+						x="16.52" dy="1.2em" class="st3">GB GC GD GE GF </tspan> </text>		</g>
+		<g id="shape10-14" v:mID="10" v:groupContext="shape" transform="translate(165.375,-784.415)">
 			<title>Ellipse.10</title>
-			<desc>in1 in2/VIN1 in3/VIN2 VIN3 VIN4 VIN5 VIN6</desc>
+			<desc>in1 in2VIN1 in3VIN2 VIN3 VIN4 VIN5 VIN6</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="28.125" cy="823.14" width="49.22" height="32.8125"/>
-			<path d="M0 823.14 A28.125 18.75 0 0 1 56.25 823.14 A28.125 18.75 0 1 1 0 823.14 Z" class="st1"/>
-			<text x="7.7" y="811.14" class="st6" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>in1 in2/VIN1 <tspan
-						x="13.65" dy="1.2em" class="st3">in3/VIN2 </tspan><tspan x="11.45" dy="1.2em" class="st3">VIN3 VIN4 </tspan><tspan
-						x="11.45" dy="1.2em" class="st3">VIN5 VIN6</tspan></text>		</g>
-		<g id="shape1001-42" v:mID="1001" v:groupContext="shape" v:layerMember="0" transform="translate(495,-701.25)">
+			<v:textRect cx="38.8125" cy="823.14" width="67.93" height="32.8125"/>
+			<path d="M0 823.14 A38.8125 18.75 0 0 1 77.63 823.14 A38.8125 18.75 0 1 1 0 823.14 Z" class="st1"/>
+			<text x="19.93" y="815.94" class="st4" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>in1 in2VIN1 <tspan
+						x="17.09" dy="1.2em" class="st3">in3VIN2 VIN3 </tspan><tspan x="13.34" dy="1.2em" class="st3">VIN4 VIN5 VIN6</tspan></text>		</g>
+		<g id="shape1001-19" v:mID="1001" v:groupContext="shape" v:layerMember="0" transform="translate(512.412,-687.764)">
 			<title>Dynamic connector.1001</title>
-			<path d="M9 841.89 L9 915.1" class="st4"/>
+			<path d="M-8.46 841.89 L-9.12 852.88" class="st5"/>
 		</g>
-		<g id="shape1000-47" v:mID="1000" v:groupContext="shape" transform="translate(475.875,-701.25)">
+		<g id="shape1000-25" v:mID="1000" v:groupContext="shape" transform="translate(474.75,-687.75)">
 			<title>Ellipse.1000</title>
 			<desc>In1 in2 in3 spegniti!</desc>
 			<v:userDefs>
@@ -128,255 +103,211 @@
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="28.125" cy="823.14" width="49.22" height="32.8125"/>
 			<path d="M0 823.14 A28.125 18.75 0 0 1 56.25 823.14 A28.125 18.75 0 1 1 -0 823.14 Z" class="st1"/>
-			<text x="14.27" y="814.14" class="st7" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>In1 in2 <tspan
+			<text x="14.27" y="814.14" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>In1 in2 <tspan
 						x="21.82" dy="1.2em" class="st3">in3 </tspan><tspan x="10.48" dy="1.2em" class="st3">spegniti!</tspan></text>		</g>
-		<g id="shape1002-52" v:mID="1002" v:groupContext="shape" transform="translate(214.875,-596.625)">
-			<title>Triangle.1002</title>
-			<desc>NA1 NA2 NA3 NA4 NB1 NB2 NB3 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 N...</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="28.125" cy="825.64" width="56.26" height="32.5"/>
-			<path d="M56.25 841.89 L28.13 793.14 L0 841.89 L56.25 841.89 Z" class="st1"/>
-			<text x="9.69" y="756.64" class="st7" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>NA1 NA2 <tspan
-						x="9.69" dy="1.2em" class="st3">NA3 NA4 </tspan><tspan x="10.03" dy="1.2em" class="st3">NB1 NB2 </tspan><tspan
-						x="10.03" dy="1.2em" class="st3">NB3 NB4 </tspan><tspan x="10.14" dy="1.2em" class="st3">NC1 NC2 </tspan><tspan
-						x="10.14" dy="1.2em" class="st3">NC3 NC4 </tspan><tspan x="10.59" dy="1.2em" class="st3">NE1 NE2 </tspan><tspan
-						x="10.59" dy="1.2em" class="st3">NE3 NE4 </tspan><tspan x="10.88" dy="1.2em" class="st3">NF1 NF2 </tspan><tspan
-						x="10.88" dy="1.2em" class="st3">NF3 NF4 </tspan><tspan x="10.48" dy="1.2em" class="st3">spegniti! </tspan><tspan
-						x="9.98" dy="1.2em" class="st3">err1 err2 </tspan><tspan x="19.62" dy="1.2em" class="st3">err3</tspan></text>		</g>
-		<g id="shape1003-67" v:mID="1003" v:groupContext="shape" transform="translate(285.75,-596.625)">
-			<title>Triangle.1003</title>
-			<desc>i/o errMilling GA GB GC GD GE GF</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="28.125" cy="825.64" width="56.26" height="32.5"/>
-			<path d="M56.25 841.89 L28.13 793.14 L0 841.89 L56.25 841.89 Z" class="st1"/>
-			<text x="22.41" y="810.64" class="st7" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>i/o <tspan x="8.31"
-						dy="1.2em" class="st3">errMilling </tspan><tspan x="8.12" dy="1.2em" class="st3">GA GB GC </tspan><tspan
-						x="8.59" dy="1.2em" class="st3">GD GE GF</tspan></text>		</g>
-		<g id="shape1005-73" v:mID="1005" v:groupContext="shape" v:layerMember="0" transform="translate(450,-581.812)">
-			<title>Dynamic connector.1005</title>
-			<path d="M0 838.7 L-108 838.7 L-108 834.12" class="st4"/>
-		</g>
-		<g id="shape1006-78" v:mID="1006" v:groupContext="shape" v:layerMember="0" transform="translate(126,-581.812)">
-			<title>Dynamic connector.1006</title>
-			<path d="M0 838.7 L88.87 838.7 L88.87 834.12" class="st4"/>
-		</g>
-		<g id="shape1007-83" v:mID="1007" v:groupContext="shape" v:layerMember="0" transform="translate(243,-645.375)">
-			<title>Dynamic connector.1007</title>
-			<path d="M0 841.89 L0 828.39 L36 828.39 L36 810.3" class="st4"/>
-		</g>
-		<g id="shape1008-88" v:mID="1008" v:groupContext="shape" v:layerMember="0" transform="translate(313.875,-645.375)">
-			<title>Dynamic connector.1008</title>
-			<path d="M0 841.89 L0 828.39 L-34.87 828.39 L-34.87 810.3" class="st4"/>
-		</g>
-		<g id="shape1009-93" v:mID="1009" v:groupContext="shape" transform="translate(18,-333)">
-			<title>Square.1009</title>
-			<desc>Counters NA NB NC NE NF too_molling</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="54" cy="787.89" width="108" height="108"/>
-			<rect x="0" y="733.89" width="108" height="108" class="st1"/>
-			<text x="35.58" y="772.89" class="st7" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Counters<v:newlineChar/><tspan
-						x="40.8" dy="1.2em" class="st3">NA NB<v:newlineChar/></tspan><tspan x="41.31" dy="1.2em" class="st3">NC NE<v:newlineChar/></tspan><tspan
-						x="22.85" dy="1.2em" class="st3">NF too_molling</tspan></text>		</g>
-		<g id="shape1010-99" v:mID="1010" v:groupContext="shape" v:layerMember="0" transform="translate(72,-549)">
-			<title>Dynamic connector.1010</title>
-			<path d="M0 841.89 L0 855.39 L-25.87 855.39 L-25.87 861.85" class="st4"/>
-		</g>
-		<g id="shape1011-104" v:mID="1011" v:groupContext="shape" transform="translate(18,-484.5)">
+		<g id="shape1011-30" v:mID="1011" v:groupContext="shape" transform="translate(82.5793,-493.5)">
 			<title>Ellipse.1011</title>
-			<desc>Nxin vIN1 vIN2 vIN3 vIN4 vIN5 vIN6 vOUT1 vOUT2 vOUT3 vOUT4 vO...</desc>
+			<desc>GA GB GC GE GF</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="28.125" cy="823.14" width="49.22" height="32.8125"/>
 			<path d="M0 823.14 A28.125 18.75 0 1 1 56.25 823.14 A28.125 18.75 0 0 1 0 823.14 Z" class="st1"/>
-			<text x="20.79" y="782.34" class="st6" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Nxin<v:newlineChar/><tspan
-						x="12.37" dy="1.2em" class="st3">vIN1 vIN2 </tspan><tspan x="12.37" dy="1.2em" class="st3">vIN3 vIN4 </tspan><tspan
-						x="12.37" dy="1.2em" class="st3">vIN5 vIN6 </tspan><tspan x="17.13" dy="1.2em" class="st3">vOUT1 </tspan><tspan
-						x="17.13" dy="1.2em" class="st3">vOUT2 </tspan><tspan x="17.13" dy="1.2em" class="st3">vOUT3 </tspan><tspan
-						x="17.13" dy="1.2em" class="st3">vOUT4 </tspan><tspan x="17.13" dy="1.2em" class="st3">vOUT5 </tspan><tspan
-						x="17.13" dy="1.2em" class="st3">vOUT6</tspan></text>		</g>
-		<g id="shape1012-116" v:mID="1012" v:groupContext="shape" v:layerMember="0" transform="translate(9,-503.25)">
-			<title>Dynamic connector.1012</title>
-			<path d="M9 841.89 L-4.5 841.89 L-4.5 958.14 L1.96 958.14" class="st4"/>
-		</g>
-		<g id="shape1013-121" v:mID="1013" v:groupContext="shape" transform="translate(101.25,-484.5)">
-			<title>Triangle.1013</title>
-			<desc>NAerr out1 out2 out3 out4 TOOerr</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="28.125" cy="825.64" width="56.26" height="32.5"/>
-			<path d="M56.25 841.89 L28.13 793.14 L0 841.89 L56.25 841.89 Z" class="st1"/>
-			<text x="5.43" y="810.64" class="st7" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>NAerr out1 <tspan
-						x="8.05" dy="1.2em" class="st3">out2 out3 </tspan><tspan x="18.65" dy="1.2em" class="st3">out4<v:newlineChar/></tspan><tspan
-						x="13.09" dy="1.2em" class="st3">TOOerr</tspan></text>		</g>
-		<g id="shape1014-127" v:mID="1014" v:groupContext="shape" v:layerMember="0" transform="translate(72,-441)">
-			<title>Dynamic connector.1014</title>
-			<path d="M0 841.89 L0 807.39 L29.25 807.39 L29.25 805.43" class="st4"/>
-		</g>
-		<g id="shape1015-132" v:mID="1015" v:groupContext="shape" v:layerMember="0" transform="translate(129.375,-532.125)">
-			<title>Dynamic connector.1015</title>
-			<path d="M0 840.76 L0 834.01 L-57.38 834.01 L-57.38 832.05" class="st4"/>
-		</g>
-		<g id="shape1016-137" v:mID="1016" v:groupContext="shape" transform="translate(18,-153)">
-			<title>Square.1016</title>
-			<desc>registers4bit</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="36" cy="805.89" width="72" height="72"/>
-			<rect x="0" y="769.89" width="72" height="72" class="st1"/>
-			<text x="10.47" y="808.89" class="st7" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>registers4bit</text>		</g>
-		<g id="shape1017-140" v:mID="1017" v:groupContext="shape" v:layerMember="0" transform="translate(72,-326.1)">
-			<title>Dynamic connector.1017</title>
-			<path d="M0 841.89 L-25.87 841.89 L-25.87 854.95" class="st4"/>
-		</g>
-		<g id="shape1018-145" v:mID="1018" v:groupContext="shape" transform="translate(18,-268.5)">
-			<title>Ellipse.1018</title>
-			<desc>inx</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="28.125" cy="823.14" width="49.22" height="32.8125"/>
-			<path d="M0 823.14 A28.125 18.75 0 1 1 56.25 823.14 A28.125 18.75 0 0 1 0 823.14 Z" class="st1"/>
-			<text x="23.37" y="825.54" class="st6" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>inx</text>		</g>
-		<g id="shape1019-148" v:mID="1019" v:groupContext="shape" v:layerMember="0" transform="translate(41.0625,-268.5)">
-			<title>Dynamic connector.1019</title>
-			<path d="M5.06 841.89 L5.06 855.39 L12.94 855.39 L12.94 878.35" class="st4"/>
-		</g>
-		<g id="shape1020-153" v:mID="1020" v:groupContext="shape" transform="translate(82.6875,-262.875)">
-			<title>Triangle.1020</title>
-			<desc>outx</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="28.125" cy="825.64" width="56.26" height="32.5"/>
-			<path d="M56.25 841.89 L28.13 793.14 L0 841.89 L56.25 841.89 Z" class="st1"/>
-			<text x="19.02" y="828.64" class="st7" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>outx</text>		</g>
-		<g id="shape1021-156" v:mID="1021" v:groupContext="shape" v:layerMember="0" transform="translate(54,-225)">
-			<title>Dynamic connector.1021</title>
-			<path d="M0 841.89 L0 804.01 L21.65 804.01" class="st4"/>
-		</g>
-		<g id="shape1022-161" v:mID="1022" v:groupContext="shape" v:layerMember="0" transform="translate(110.813,-311.625)">
-			<title>Dynamic connector.1022</title>
-			<path d="M0 841.89 L0 829.04 L-37.13 829.04 L-37.13 827.55" class="st4"/>
-		</g>
-		<g id="shape1023-166" v:mID="1023" v:groupContext="shape" transform="translate(108,-153)">
-			<title>Square.1023</title>
-			<desc>registers8bit</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="36" cy="805.89" width="72" height="72"/>
-			<rect x="0" y="769.89" width="72" height="72" class="st1"/>
-			<text x="10.47" y="808.89" class="st7" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>registers8bit</text>		</g>
-		<g id="shape1024-169" v:mID="1024" v:groupContext="shape" transform="translate(43.2567,-40.5)">
-			<title>Square.1024</title>
-			<desc>registers</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="36" cy="805.89" width="72" height="72"/>
-			<rect x="0" y="769.89" width="72" height="72" class="st1"/>
-			<text x="18.45" y="808.89" class="st7" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>registers</text>		</g>
-		<g id="shape1025-172" v:mID="1025" v:groupContext="shape" v:layerMember="0" transform="translate(46.125,-268.5)">
-			<title>Dynamic connector.1025</title>
-			<path d="M0 841.89 L0 862.89 L4.87 862.89 A3 3 0 1 1 10.87 862.89 L97.87 862.89 L97.87 878.35" class="st4"/>
-		</g>
-		<g id="shape1026-177" v:mID="1026" v:groupContext="shape" v:layerMember="0" transform="translate(150.469,-225)">
-			<title>Dynamic connector.1026</title>
-			<path d="M-6.47 841.89 L-6.47 804.01 L-11.53 804.01" class="st8"/>
-		</g>
-		<g id="shape1027-183" v:mID="1027" v:groupContext="shape" v:layerMember="0" transform="translate(54,-153)">
-			<title>Dynamic connector.1027</title>
-			<path d="M0 841.89 L0 855.39 L25.26 855.39 L25.26 875.35" class="st4"/>
-		</g>
-		<g id="shape1028-188" v:mID="1028" v:groupContext="shape" v:layerMember="0" transform="translate(144,-153)">
-			<title>Dynamic connector.1028</title>
-			<path d="M0 841.89 L0 868.89 L-64.74 868.89 L-64.74 875.35" class="st4"/>
-		</g>
-		<g id="shape1029-193" v:mID="1029" v:groupContext="shape" transform="translate(-506.79,544.89) rotate(-90)">
+			<text x="12.12" y="820.74" class="st4" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>GA GB GC <tspan
+						x="18.38" dy="1.2em" class="st3">GE GF</tspan></text>		</g>
+		<g id="shape1029-34" v:mID="1029" v:groupContext="shape" transform="translate(419.021,-511.5)">
 			<title>Square.1029</title>
-			<desc>sommatore4bit</desc>
+			<desc>sommatore4bit registro4bit zeroCostant</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="36" cy="805.89" width="72" height="72"/>
 			<rect x="0" y="769.89" width="72" height="72" class="st1"/>
-			<text x="4.5" y="808.89" class="st7" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>sommatore4bit</text>		</g>
-		<g id="shape1031-196" v:mID="1031" v:groupContext="shape" transform="translate(-622.29,544.89) rotate(-90)">
-			<title>Ellipse.1031</title>
-			<desc>Inax inbx</desc>
+			<text x="4.5" y="796.89" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>sommatore4bit<v:lf/><tspan
+						x="12.27" dy="1.2em" class="st3">registro4bit<v:lf/></tspan><tspan x="11.53" dy="1.2em" class="st3">zeroCostant</tspan></text>		</g>
+		<g id="shape1035-39" v:mID="1035" v:groupContext="shape" transform="translate(405,-394.99)">
+			<title>Square.1035</title>
+			<desc>sommartore8bit sotTRATTORE6bit registro6bit registro8bit zero...</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="43.0103" cy="798.879" width="86.03" height="86.0207"/>
+			<rect x="0" y="755.869" width="86.0207" height="86.0207" class="st1"/>
+			<text x="9.77" y="771.88" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>sommartore8bit<v:newlineChar/><tspan
+						x="7.38" dy="1.2em" class="st3">sotTRATTORE6bit<v:lf/></tspan><tspan x="19.28" dy="1.2em" class="st3">registro6bit<v:lf/></tspan><tspan
+						x="19.28" dy="1.2em" class="st3">registro8bit<v:lf/></tspan><tspan x="18.54" dy="1.2em" class="st3">zeroCostant<v:lf/></tspan><tspan
+						x="15.92" dy="1.2em" class="st3">maggiore8bit</tspan></text>		</g>
+		<g id="shape1042-47" v:mID="1042" v:groupContext="shape" transform="translate(259.875,-716.25)">
+			<title>Triangle.1042</title>
+			<desc>FSMD</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="28.125" cy="833.64" width="56.26" height="32.5"/>
+			<path d="M56.25 841.89 L28.13 793.14 L0 841.89 L56.25 841.89 Z" class="st1"/>
+			<text x="11.22" y="837.37" class="st7" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>FSMD</text>		</g>
+		<g id="shape1044-50" v:mID="1044" v:groupContext="shape" transform="translate(339.187,-782.44)">
+			<title>Rectangle.1044</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="800.44" width="77.625" height="41.4498" class="st1"/>
+		</g>
+		<g id="shape1045-52" v:mID="1045" v:groupContext="shape" v:layerMember="0" transform="translate(204.187,-784.415)">
+			<title>Dynamic connector.1045</title>
+			<path d="M0 841.89 L0 848.64 L83.81 848.64 L83.81 854.26" class="st5"/>
+		</g>
+		<g id="shape1046-57" v:mID="1046" v:groupContext="shape" v:layerMember="0" transform="translate(299.375,-745.284)">
+			<title>Dynamic connector.1046</title>
+			<path d="M0 841.89 L78.63 841.89 L78.63 811.77" class="st5"/>
+		</g>
+		<g id="shape1048-62" v:mID="1048" v:groupContext="shape" transform="translate(75.1587,-574.013)">
+			<title>Triangle.1048</title>
+			<desc>STARTER</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="36.4811" cy="834.155" width="71.1" height="37.325"/>
+			<path d="M71.09 841.89 L32.73 785.9 L0 841.89 L71.09 841.89 Z" class="st1"/>
+			<text x="6.22" y="837.88" class="st7" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>STARTER</text>		</g>
+		<g id="shape1049-65" v:mID="1049" v:groupContext="shape" v:layerMember="0" transform="translate(259.875,-715.219)">
+			<title>Dynamic connector.1049</title>
+			<path d="M0 840.86 L-98.9 825.97" class="st5"/>
+		</g>
+		<g id="shape1051-70" v:mID="1051" v:groupContext="shape" v:layerMember="0" transform="translate(123.349,-607.438)">
+			<title>Dynamic connector.1051</title>
+			<path d="M0 841.89 L2.65 835.56 L2.65 776.39 L33.62 776.39" class="st5"/>
+		</g>
+		<g id="shape1052-75" v:mID="1052" v:groupContext="shape" v:layerMember="0" transform="translate(118.298,-715.5)">
+			<title>Dynamic connector.1052</title>
+			<path d="M-7.59 841.89 L-7.59 855.39 L-10.41 855.39 L-10.41 920.35" class="st5"/>
+		</g>
+		<g id="shape1053-80" v:mID="1053" v:groupContext="shape" v:layerMember="0" transform="translate(237.694,-672.938)">
+			<title>Dynamic connector.1053</title>
+			<path d="M0 841.89 L32.06 841.89 L32.06 805.62" class="st5"/>
+		</g>
+		<g id="shape1054-85" v:mID="1054" v:groupContext="shape" transform="translate(474.75,-621)">
+			<title>Triangle.1054</title>
+			<desc>START</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="28.125" cy="833.64" width="56.26" height="32.5"/>
+			<path d="M56.25 841.89 L28.13 793.14 L0 841.89 L56.25 841.89 Z" class="st1"/>
+			<text x="5.84" y="837.37" class="st7" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>START</text>		</g>
+		<g id="shape1055-88" v:mID="1055" v:groupContext="shape" v:layerMember="0" transform="translate(316.125,-720.375)">
+			<title>Dynamic connector.1055</title>
+			<path d="M0 846.01 L0 855.76 L151.58 855.76" class="st5"/>
+		</g>
+		<g id="shape1056-93" v:mID="1056" v:groupContext="shape" v:layerMember="0" transform="translate(402.975,-669.75)">
+			<title>Dynamic connector.1056</title>
+			<path d="M0 841.89 L0 828.39 L-105.97 828.39 L-105.97 803.18" class="st5"/>
+		</g>
+		<g id="shape1057-98" v:mID="1057" v:groupContext="shape" v:layerMember="0" transform="translate(474.75,-617.625)">
+			<title>Dynamic connector.1057</title>
+			<path d="M0 838.51 L-71.78 838.51 L-71.78 834.3" class="st5"/>
+		</g>
+		<g id="shape1058-103" v:mID="1058" v:groupContext="shape" v:layerMember="0" transform="translate(69.869,-574.013)">
+			<title>Dynamic connector.1058</title>
+			<path d="M5.29 841.89 L-24.87 841.89 L-24.87 1001.15 L5.67 1001.15" class="st5"/>
+		</g>
+		<g id="shape1059-108" v:mID="1059" v:groupContext="shape" v:layerMember="0" transform="translate(69.869,-574.013)">
+			<title>Dynamic connector.1059</title>
+			<path d="M5.29 841.89 L-24.87 841.89 L-24.87 903.65 L5.67 903.65" class="st5"/>
+		</g>
+		<g id="shape1060-113" v:mID="1060" v:groupContext="shape" transform="translate(226.65,-511.5)">
+			<title>Triangle.1060</title>
+			<desc>NA NB NC NE NF Counters</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="52.275" cy="813.324" width="104.56" height="86.8693"/>
+			<path d="M104.55 841.89 L52.28 751.28 L0 841.89 L104.55 841.89 Z" class="st1"/>
+			<text x="39.08" y="803.12" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>NA NB<v:newlineChar/><tspan
+						x="39.58" dy="1.2em" class="st3">NC NE<v:newlineChar/><v:paragraph v:horizAlign="1"/></tspan><tspan
+						x="27.2" dy="1.38em" class="st3">NF Counters</tspan></text>		</g>
+		<g id="shape1061-118" v:mID="1061" v:groupContext="shape" v:layerMember="0" transform="translate(138.829,-520.875)">
+			<title>Dynamic connector.1061</title>
+			<path d="M0 850.51 L44.71 850.9 A3 3 0 0 1 50.71 850.95 L80.78 851.2" class="st5"/>
+		</g>
+		<g id="shape1062-123" v:mID="1062" v:groupContext="shape" transform="translate(226.65,-413.39)">
+			<title>Triangle.1062</title>
+			<desc>NA NB NC NE NF Counters</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="52.275" cy="813.324" width="104.56" height="86.8693"/>
+			<path d="M104.55 841.89 L52.28 751.28 L0 841.89 L104.55 841.89 Z" class="st1"/>
+			<text x="39.08" y="803.12" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>NA NB<v:newlineChar/><tspan
+						x="39.58" dy="1.2em" class="st3">NC NE<v:newlineChar/><v:paragraph v:horizAlign="1"/></tspan><tspan
+						x="27.2" dy="1.38em" class="st3">NF Counters</tspan></text>		</g>
+		<g id="shape1063-128" v:mID="1063" v:groupContext="shape" transform="translate(82.5793,-396)">
+			<title>Ellipse.1063</title>
+			<desc>vINx vOutx GC GD</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="28.125" cy="823.14" width="49.22" height="32.8125"/>
 			<path d="M0 823.14 A28.125 18.75 0 1 1 56.25 823.14 A28.125 18.75 0 0 1 0 823.14 Z" class="st1"/>
-			<text x="13.61" y="825.54" class="st6" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Inax inbx</text>		</g>
-		<g id="shape1032-199" v:mID="1032" v:groupContext="shape" v:layerMember="0" transform="translate(219.6,-320.063)">
-			<title>Dynamic connector.1032</title>
-			<path d="M0 836.83 L13.5 836.83 L13.5 828.95 L27 828.95 A3 3 0 1 1 33 828.95 L36.46 828.95" class="st4"/>
+			<text x="10.46" y="820.74" class="st4" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>vINx vOutx <tspan
+						x="17.58" dy="1.2em" class="st3">GC GD</tspan></text>		</g>
+		<g id="shape1064-132" v:mID="1064" v:groupContext="shape" v:layerMember="0" transform="translate(309.888,-556.97)">
+			<title>Dynamic connector.1064</title>
+			<path d="M6.68 850.48 L7.04 850.48 L102.09 851.3" class="st8"/>
 		</g>
-		<g id="shape1033-204" v:mID="1033" v:groupContext="shape" transform="translate(-616.665,480.202) rotate(-90)">
-			<title>Triangle.1033</title>
-			<desc>Outx</desc>
+		<g id="shape1065-140" v:mID="1065" v:groupContext="shape" v:layerMember="0" transform="translate(318.964,-427.3)">
+			<title>Dynamic connector.1065</title>
+			<path d="M6.62 833.71 L6.98 833.67 L25.74 831.19 L79 831.19" class="st8"/>
+		</g>
+		<g id="shape1066-147" v:mID="1066" v:groupContext="shape" v:layerMember="0" transform="translate(138.829,-423.07)">
+			<title>Dynamic connector.1066</title>
+			<path d="M0 850.21 L80.78 851.46" class="st5"/>
+		</g>
+		<g id="shape1067-152" v:mID="1067" v:groupContext="shape" v:layerMember="0" transform="translate(255.282,-463.019)">
+			<title>Dynamic connector.1067</title>
+			<path d="M0 841.89 L-68.74 841.89 L-68.74 770.17" class="st5"/>
+		</g>
+		<g id="shape1069-157" v:mID="1069" v:groupContext="shape" v:layerMember="0" transform="translate(164.128,-556.409)">
+			<title>Dynamic connector.1069</title>
+			<path d="M-0.12 841.49 L-17.88 841.49 L-17.88 831.33" class="st5"/>
+		</g>
+		<g id="shape1068-162" v:mID="1068" v:groupContext="shape" transform="translate(164.006,-541.78)">
+			<title>Rectangle.1068</title>
+			<desc>TOOerr</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="28.125" cy="825.64" width="56.26" height="32.5"/>
-			<path d="M56.25 841.89 L28.13 793.14 L0 841.89 L56.25 841.89 Z" class="st1"/>
-			<text x="18.35" y="828.64" class="st7" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Outx</text>		</g>
-		<g id="shape1035-207" v:mID="1035" v:groupContext="shape" transform="translate(-506.79,454.89) rotate(-90)">
-			<title>Square.1035</title>
-			<desc>Sommartore8bit sotTRATTORE6bit</desc>
+			<v:textRect cx="22.5375" cy="826.865" width="45.08" height="30.05"/>
+			<rect x="0" y="811.84" width="45.075" height="30.05" class="st1"/>
+			<text x="7.51" y="829.86" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>TOOerr</text>		</g>
+		<g id="shape1070-165" v:mID="1070" v:groupContext="shape" transform="translate(181.444,-592.125)">
+			<title>Rectangle.1070</title>
+			<desc>Nxerr NA NB NC NE NF</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
-			<v:textRect cx="36" cy="805.89" width="72" height="72"/>
-			<rect x="0" y="769.89" width="72" height="72" class="st1"/>
-			<text x="4.09" y="790.89" class="st7" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Sommartore8bi<tspan
-						x="34.33" dy="1.2em" class="st3">t<v:newlineChar/></tspan><tspan x="5.81" dy="1.2em" class="st3">sotTRATTORE6</tspan><tspan
-						x="30.55" dy="1.2em" class="st3">bit</tspan></text>		</g>
-		<g id="shape1036-213" v:mID="1036" v:groupContext="shape" v:layerMember="0" transform="translate(263.1,-429.469)">
-			<title>Dynamic connector.1036</title>
-			<path d="M0 848.36 L-37.87 848.36 L-37.87 853.42" class="st8"/>
+			<v:textRect cx="35.5457" cy="826.865" width="71.1" height="30.05"/>
+			<rect x="0" y="811.84" width="71.0913" height="30.05" class="st1"/>
+			<text x="9.85" y="823.86" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Nxerr NA NB <tspan
+						x="16.2" dy="1.2em" class="st3">NC NE NF</tspan></text>		</g>
+		<g id="shape1071-169" v:mID="1071" v:groupContext="shape" v:layerMember="0" transform="translate(278.925,-595.63)">
+			<title>Dynamic connector.1071</title>
+			<path d="M0 835.41 L0 830.37 L-19.35 830.37" class="st5"/>
 		</g>
-		<g id="shape1037-218" v:mID="1037" v:groupContext="shape" v:layerMember="0" transform="translate(263.1,-333)">
-			<title>Dynamic connector.1037</title>
-			<path d="M0 841.89 L-10.5 841.89 A3 3 -180 1 0 -16.5 841.89 L-24.6 841.89 L-24.6 753.58 L-37.87 753.58 L-37.87 806.16"
-					class="st4"/>
-		</g>
-		<g id="shape1038-223" v:mID="1038" v:groupContext="shape" v:layerMember="0" transform="translate(219.6,-325.125)">
-			<title>Dynamic connector.1038</title>
-			<path d="M0 841.89 L30 841.89 L30 744.01 L36.46 744.01" class="st4"/>
-		</g>
-		<g id="shape1039-228" v:mID="1039" v:groupContext="shape" v:layerMember="0" transform="translate(176.475,-397.406)">
-			<title>Dynamic connector.1039</title>
-			<path d="M0 849.48 L-13.5 849.48 L-13.5 852.3 L-43.43 852.3" class="st4"/>
-		</g>
-		<g id="shape1040-233" v:mID="1040" v:groupContext="shape" v:layerMember="0" transform="translate(126,-387)">
-			<title>Dynamic connector.1040</title>
-			<path d="M0 841.89 L13.5 841.89 L13.5 903.76 L49.06 903.76" class="st4"/>
+		<g id="shape1072-174" v:mID="1072" v:groupContext="shape" v:layerMember="0" transform="translate(181.444,-607.15)">
+			<title>Dynamic connector.1072</title>
+			<path d="M0 841.89 L-35.19 841.89 L-35.19 867.99" class="st5"/>
 		</g>
 	</g>
 </svg>

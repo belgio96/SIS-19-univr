@@ -7,7 +7,7 @@
 
 .subckt registro4bit in1=inr1 in2=inr2 in3=inr3 in4=inr4 	out1=in1 out2=in2 out3=in3 out4=in4
 
-.search register/zeroCostant.blif
-.search operand/sommatore4bit.blif
-.search register/registro4bit.blif
+.search zeroCostant.blif
+.search sommatore4bit.blif
+.search registro4bit.blif
 .end 

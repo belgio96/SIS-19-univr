@@ -9,6 +9,6 @@
 .subckt sommatore1bit in1=ina3 in2=inb3 cin=cout5  out=out3 cout=cout6
 .subckt sommatore1bit in1=ina2 in2=inb2 cin=cout6  out=out2 cout=cout7
 .subckt sommatore1bit in1=ina1 in2=inb1 cin=cout7  out=out1 cout=COUT  
-.search operand/sommatore1bit.blif
+.search sommatore1bit.blif
 .end
 
