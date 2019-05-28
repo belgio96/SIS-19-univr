@@ -64,24 +64,24 @@
 
 
 
-.names errMilling TOOerr NBerr NEerr err1
+.names NBerr NEerr err1
 # NB
-0010 1
+10 1
 # NE
-0001 1
+01 1
 
-.names errMilling TOOerr NBerr NEerr err2
+.names TOOerr NEerr err2
 # TOOerr
-0100 1
+10 1
 # NE
-0001 1
+01 1
 
-.names errMilling TOOerr NBerr NEerr err3
+.names errMilling NBerr err3
 # errMilling
-1000 1
+10 1
 
 # NB
-0010 1
+10 1
 
 # vedi da pag 207 libro pag 380
 

@@ -63,6 +63,15 @@
 		.code {
 			font-family: monospace;
 		}
+		.body table{
+			font-size: inherit;
+			margin-left:auto; 
+			margin-right:auto;
+		}
+		td {
+			width: 10vw;
+			height: 2.5vw;
+		}
 	</style>
 </head>
 <body>
@@ -75,7 +84,9 @@
 	</div>
 	<div id="intro" class="body";>
 		<p>
-			read README.blif first
+			<h3>
+				read README.blif first
+			</h3>
 		</p>
 		<p>
 			The implementation of the machine control system had required five states, two of them are for the starting point of the machine and other three for each section.
@@ -86,7 +97,9 @@
 		<img src="flowChart.svg" title="flowchart of inputs/outputs">
 		<br><br><br>
 		<p>
-			Here the stg:
+			<h3>
+				Here the stg:
+			</h3>
 		</p>
 		<p>
 			FSM is composed of 5 states: S / I,B,M,A. Each of them represents different switch-on / off states.<br>
@@ -96,7 +109,9 @@
 		</p>
 		<img src="stgChart.svg" title="stg">
 		<p>
-			FSMD:
+			<h3>
+				FSMD:
+			</h3>
 		</p>
 		<p>
 			The system is divided into FSM (finite state machine) and DP (Data path).<br>
@@ -106,38 +121,100 @@
 		</p>
 		<img src="FSM_DP.svg" title="FSMD">
 		<!-- agiungi in questi p le statistiche -->
-				STATISTICHE GENERALI
-				
-			Statistiche del circuito prima dell’ottimizzazione
-			
-			Pi = 7
-			Po = 30
-			Nodes = 164
-			Latches = 37
-			Lits(sop) = 681
-
-			Statistiche del circuito dopo dell’ottimizzazione
-			
-			Pi = 7
-			Po = 30
-			Nodes = 164
-			Latches = 37
-			Lits(sop) = 362
-
-			Numero di gates e ritardo dopo la mappatura
-			
-			Numero di gate : 9056.00
-			(Total gate)
-			Ritardo prima della mappatura : (38.00,38.00)
-			
-			
-			Numero di gate dopo mappatura: 8896.00
-			Ritardo dopo la mappatura : (35.40,35.40)
-			(Maximum arrival time)
-
-		
 		<p>
-			
+			<h3>
+				statistiche generali dell’ottimizzazione
+			</h3>
+			<table>
+				<tr>
+					<td>
+						
+					</td>
+					<td>
+						prima
+					</td>
+					<td>
+						dopo
+					</td>
+				</tr>
+				<tr>
+					<td>
+						input
+					</td>
+					<td>
+						7
+					</td>
+					<td>
+						7
+					</td>
+				</tr>
+				<tr>
+					<td>
+						outputs
+					</td>
+					<td>
+						30
+					</td>
+					<td>
+						30
+					</td>
+				</tr>
+				<tr>
+					<td>
+						nodes
+					</td>
+					<td>
+						164
+					</td>
+					<td>
+						164
+					</td>
+				</tr>
+				<tr>
+					<td>
+						latch
+					</td>
+					<td>
+						37
+					</td>
+					<td>
+						37
+					</td>
+				</tr>
+				<tr>
+					<td>
+						lits (sop)
+					</td>
+					<td>
+						681
+					</td>
+					<td>
+						362
+					</td>
+				</tr>
+				<tr>
+					<td>
+						gates
+					</td>
+					<td>
+						9056
+					</td>
+					<td>
+						8896
+					</td>
+				</tr>
+				<tr>
+					<td>
+						ritardo
+					</td>
+					<td>
+						38.00
+					</td>
+					<td>
+						35.40
+					</td>
+				</tr>
+			</table>
 		</p>
 	</div>
 </body>
