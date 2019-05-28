@@ -1,14 +1,12 @@
 # for future:
-# 
-# conclude to work the .circ file
+# 	conclude to work the .circ file
 
 # stats
 
 # now:
-# 
-# errors code not working
-# ad ogni ciclo non deve richiedere 1 1 1 - - - - ma solo nel primo
-# rivedere sottrattore
+# 	errors code not working
+# 	ad ogni ciclo successivo non deve richiedere 1 1 1 - - - - ma solo nel primo << aggiornare stg
+# 	rivedere sottrattore
 
 
 # Un file Relazione.pdf con una relazione del progetto che affronti nel dettaglio almeno i seguenti punti:

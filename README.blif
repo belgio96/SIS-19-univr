@@ -2,21 +2,20 @@
 
 # File list and brew description: 
 # MACHINE FILES:  
-# FSMD: (the fsmd obviously), with read_blif FSMD.blif we start the machine; the first state on start S i/o = 1 and every gate at 0 (closed);
+# FSMD: (the fsmd obviously), with rl FSMD.blif we start the machine; the first state on start S i/o = 1 and every gate at 0 (closed);
 # start: (fsm) state code, kiss section. there you'll find the 5 state and outputs;
-# starter: (Datapath) here, throw gates bits input it will select the path for every register. every cycle every register is updated with opportune value. there are also implemented the errors
-# backup folder is an old version of all, before the bug correction the second one before the simplification;
-# counter folder there are the file used to store every gate with quantity chek;
-# machine folder is not useful, just the state implementation by himself;
-# operand folder the file the implements the operations;
-# register folder the files to implement the registers prototype and costants;
+# starter: (Data path) here, throw gates bits input it will select the path for every register. every cycle every register is updated with opportune value. there are also implemented the errors
+# counter (folder) there are the file used to store every gate with quantity check;
+# machine the completed machine in a single file after simplify;
+# operand (folder) the file the implements the operations;
+# register (folder) the files to implement the registers prototype and constants;
 # OTHER FILES:
-# elaborato_VR421742_VR414014.circ file open with Logisim http://www.cburch.com/logisim/ ,basic draw implementation of the circuit, not completed not completed to work
-# sis-language.xml -> npp language defined for SIS
-# flowChart.* are the files created with Microsoft Visio, that’s a map of var direction ~TODO and maybe a state flowchart
-# 3d_machine.skb ~TODO a draw of the machine with gates name and states
+# elaborato_VR421742_VR414014.circ file open with Logisim http://www.cburch.com/logisim/ ,basic draw implementation of the circuit, not completed to work
+# sis-language.xml -> npp language defined for SIS https://notepad-plus-plus.org/ #~ALMOST_DONE
+# flowChart.* are the files created with Microsoft Visio, that’s a map of var direction 
+# 3d_machine.skb a draw of the machine with gates name and states #~TODO 
 
-# to start the machine call ' read_blif FSMD.blif ' inside a sis eviroment.
+# to start the machine call ' rl FSMD.blif ' inside a sis environment.
 # inputs order:
 # in1 in2/VIN1 in3/VIN2 VIN3 VIN4 VIN5 VIN6
 # outputs order:
