@@ -2,35 +2,36 @@
 .inputs in1 in2VIN1 in3VIN2 VIN3 VIN4 VIN5 VIN6
 .outputs ioFSM err1 err2 err3 GA GB GC GD GE GF NA1 NA2 NA3 NA4 NB1 NB2 NB3 \
 NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
-.latch    [2675] LatchOut_v4   1
-.latch    [2676] LatchOut_v5   1
+.latch    [8] LatchOut_v4   1
+.latch    [9] LatchOut_v5   1
+.latch    [10] LatchOut_v6   0
 .latch    spegniti spegnit1cycle re NIL 0
-.latch    NF1 [4828] re NIL 0
+.latch    NF1 [8079] re NIL 0
 .latch    NF2 in2 re NIL 0
 .latch    NF3 in3 re NIL 0
 .latch    NF4 in4 re NIL 0
-.latch    NB1 [4558] re NIL 0
-.latch    NB2 [4569] re NIL 0
-.latch    NB3 [4571] re NIL 0
-.latch    NB4 [4573] re NIL 0
-.latch    NE1 [4595] re NIL 0
-.latch    NE2 [4606] re NIL 0
-.latch    NE3 [4608] re NIL 0
-.latch    NE4 [4610] re NIL 0
-.latch    NC1 [4616] re NIL 0
-.latch    NC2 [4627] re NIL 0
-.latch    NC3 [4629] re NIL 0
-.latch    NC4 [4631] re NIL 0
-.latch    NA1 [4637] re NIL 0
-.latch    NA2 [4648] re NIL 0
-.latch    NA3 [4650] re NIL 0
-.latch    NA4 [4652] re NIL 0
-.latch    [4670] outC1 re NIL 0
-.latch    [4672] outC2 re NIL 0
-.latch    [4674] outC3 re NIL 0
-.latch    [4676] outC4 re NIL 0
-.latch    [4678] outC5 re NIL 0
-.latch    [4680] outC6 re NIL 0
+.latch    NB1 [7809] re NIL 0
+.latch    NB2 [7820] re NIL 0
+.latch    NB3 [7822] re NIL 0
+.latch    NB4 [7824] re NIL 0
+.latch    NE1 [7846] re NIL 0
+.latch    NE2 [7857] re NIL 0
+.latch    NE3 [7859] re NIL 0
+.latch    NE4 [7861] re NIL 0
+.latch    NC1 [7867] re NIL 0
+.latch    NC2 [7878] re NIL 0
+.latch    NC3 [7880] re NIL 0
+.latch    NC4 [7882] re NIL 0
+.latch    NA1 [7888] re NIL 0
+.latch    NA2 [7899] re NIL 0
+.latch    NA3 [7901] re NIL 0
+.latch    NA4 [7903] re NIL 0
+.latch    [7921] outC1 re NIL 0
+.latch    [7923] outC2 re NIL 0
+.latch    [7925] outC3 re NIL 0
+.latch    [7927] outC4 re NIL 0
+.latch    [7929] outC5 re NIL 0
+.latch    [7931] outC6 re NIL 0
 .latch    t1 val1 re NIL 0
 .latch    t2 val2 re NIL 0
 .latch    t3 val3 re NIL 0
@@ -39,223 +40,236 @@ NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
 .latch    t6 val6 re NIL 0
 .latch    t7 val7 re NIL 0
 .latch    t8 val8 re NIL 0
-.names in1 in2VIN1 in3VIN2 spegnit1cycle LatchOut_v4 LatchOut_v5 ioFSM
----0-0 1
-1--001 1
-111-11 1
-.names errMilling TOOerr NBerr NEerr err1
-0001 1
-0010 1
-.names errMilling TOOerr NBerr NEerr err2
-0001 1
-0100 1
-.names errMilling TOOerr NBerr NEerr err3
-0010 1
+.names in1 in2VIN1 in3VIN2 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 \
+ioFSM
+---0-0- 1
+1--01-1 1
+1--00-1 1
+1--00-0 1
+0--00-0 1
+111-110 1
+.names NBerr NEerr err1
+01 1
+10 1
+.names TOOerr NEerr err2
+01 1
+10 1
+.names errMilling NBerr err3
+10 1
+.names in1 in2VIN1 in3VIN2 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 \
+GA
+1--01-1 1
+111-110 1
+.names in1 spegnit1cycle LatchOut_v4 LatchOut_v6 GB
+-100 1
+0000 1
+.names in1 spegnit1cycle LatchOut_v4 LatchOut_v6 GC
 1000 1
-.names in1 in2VIN1 in3VIN2 LatchOut_v4 LatchOut_v5 GA
-11111 1
-.names in1 spegnit1cycle LatchOut_v4 LatchOut_v5 GB
-0-01 1
--101 1
-.names in1 spegnit1cycle LatchOut_v4 LatchOut_v5 GC
+.names in1 spegnit1cycle LatchOut_v4 LatchOut_v6 GD
 1001 1
-.names in1 spegnit1cycle LatchOut_v4 LatchOut_v5 GD
-1010 1
-.names in1 LatchOut_v4 LatchOut_v5 GE
-000 1
-.names in1 LatchOut_v4 LatchOut_v5 GF
-100 1
-.names [4640] [4639] NA1
+.names in1 LatchOut_v5 GE
+00 1
+.names in1 LatchOut_v5 GF
+10 1
+.names [7891] [7890] NA1
 01 1
 10 1
-.names [4641] [4642] NA2
+.names [7892] [7893] NA2
 01 1
 10 1
-.names [4643] [4644] NA3
+.names [7894] [7895] NA3
 01 1
 10 1
-.names [4645] [4638] NA4
+.names [7896] [7889] NA4
 01 1
 10 1
-.names [4561] [4560] NB1
+.names [7812] [7811] NB1
 01 1
 10 1
-.names [4562] [4563] NB2
+.names [7813] [7814] NB2
 01 1
 10 1
-.names [4564] [4565] NB3
+.names [7815] [7816] NB3
 01 1
 10 1
-.names [4566] [4559] NB4
+.names [7817] [7810] NB4
 01 1
 10 1
-.names [4619] [4618] NC1
+.names [7870] [7869] NC1
 01 1
 10 1
-.names [4620] [4621] NC2
+.names [7871] [7872] NC2
 01 1
 10 1
-.names [4622] [4623] NC3
+.names [7873] [7874] NC3
 01 1
 10 1
-.names [4624] [4617] NC4
+.names [7875] [7868] NC4
 01 1
 10 1
-.names [4598] [4597] NE1
+.names [7849] [7848] NE1
 01 1
 10 1
-.names [4599] [4600] NE2
+.names [7850] [7851] NE2
 01 1
 10 1
-.names [4601] [4602] NE3
+.names [7852] [7853] NE3
 01 1
 10 1
-.names [4603] [4596] NE4
+.names [7854] [7847] NE4
 01 1
 10 1
-.names [4350] cout3 NF1
+.names [7598] cout3 NF1
 01 1
 10 1
-.names [4349] cout2 NF2
+.names [7597] cout2 NF2
 01 1
 10 1
-.names [4348] cout1 NF3
+.names [7596] cout1 NF3
 01 1
 10 1
 .names temp zero NF4
 01 1
 10 1
-.names in1 spegnit1cycle LatchOut_v4 LatchOut_v5 errMilling
-0010 1
-.names in1 in2VIN1 in3VIN2 spegnit1cycle LatchOut_v4 LatchOut_v5 [2675]
-0----- 1
----1-- 1
--0--11 1
---0-11 1
-1---00 1
-1--001 1
-.names in1 in2VIN1 in3VIN2 spegnit1cycle LatchOut_v4 LatchOut_v5 [2676]
-0----- 1
----1-- 1
--0--11 1
---0-11 1
-1---00 1
-111-11 1
-.names [4637] [4638] [4640]
+.names in1 spegnit1cycle LatchOut_v4 LatchOut_v6 errMilling
+0001 1
+.names in1 in2VIN1 in3VIN2 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 \
+[8]
+0------ 1
+---1--- 1
+1----0- 1
+-0--1-0 1
+--0-1-0 1
+1--00-1 1
+.names in1 in2VIN1 in3VIN2 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 \
+[9]
+0------ 1
+---1--- 1
+1----0- 1
+-0--1-0 1
+--0-1-0 1
+1--01-1 1
+1--00-0 1
+111-110 1
+.names in1 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 [10]
+-0-0- 1
+100-0 1
+000-0 1
+.names [7888] [7889] [7891]
 01 1
 10 1
-.names [4648] [4638] [4642] [4639]
+.names [7899] [7889] [7893] [7890]
 11- 1
 1-1 1
 -11 1
-.names [4648] [4638] [4641]
+.names [7899] [7889] [7892]
 01 1
 10 1
-.names [4650] [4638] [4644] [4642]
+.names [7901] [7889] [7895] [7893]
 11- 1
 1-1 1
 -11 1
-.names [4650] [4638] [4643]
+.names [7901] [7889] [7894]
 01 1
 10 1
-.names [4652] GA [4638] [4644]
+.names [7903] GA [7889] [7895]
 11- 1
 1-1 1
 -11 1
-.names [4652] GA [4645]
+.names [7903] GA [7896]
 01 1
 10 1
-.names [4638]
-.names [4558] [4559] [4561]
+.names [7889]
+.names [7809] [7810] [7812]
 01 1
 10 1
-.names [4569] [4559] [4563] [4560]
+.names [7820] [7810] [7814] [7811]
 11- 1
 1-1 1
 -11 1
-.names [4569] [4559] [4562]
+.names [7820] [7810] [7813]
 01 1
 10 1
-.names [4571] [4559] [4565] [4563]
+.names [7822] [7810] [7816] [7814]
 11- 1
 1-1 1
 -11 1
-.names [4571] [4559] [4564]
+.names [7822] [7810] [7815]
 01 1
 10 1
-.names [4573] GB [4559] [4565]
+.names [7824] GB [7810] [7816]
 11- 1
 1-1 1
 -11 1
-.names [4573] GB [4566]
+.names [7824] GB [7817]
 01 1
 10 1
-.names [4559]
-.names [4616] [4617] [4619]
+.names [7810]
+.names [7867] [7868] [7870]
 01 1
 10 1
-.names [4627] [4617] [4621] [4618]
+.names [7878] [7868] [7872] [7869]
 11- 1
 1-1 1
 -11 1
-.names [4627] [4617] [4620]
+.names [7878] [7868] [7871]
 01 1
 10 1
-.names [4629] [4617] [4623] [4621]
+.names [7880] [7868] [7874] [7872]
 11- 1
 1-1 1
 -11 1
-.names [4629] [4617] [4622]
+.names [7880] [7868] [7873]
 01 1
 10 1
-.names [4631] GC [4617] [4623]
+.names [7882] GC [7868] [7874]
 11- 1
 1-1 1
 -11 1
-.names [4631] GC [4624]
+.names [7882] GC [7875]
 01 1
 10 1
-.names [4617]
-.names [4595] [4596] [4598]
+.names [7868]
+.names [7846] [7847] [7849]
 01 1
 10 1
-.names [4606] [4596] [4600] [4597]
+.names [7857] [7847] [7851] [7848]
 11- 1
 1-1 1
 -11 1
-.names [4606] [4596] [4599]
+.names [7857] [7847] [7850]
 01 1
 10 1
-.names [4608] [4596] [4602] [4600]
+.names [7859] [7847] [7853] [7851]
 11- 1
 1-1 1
 -11 1
-.names [4608] [4596] [4601]
+.names [7859] [7847] [7852]
 01 1
 10 1
-.names [4610] GE [4596] [4602]
+.names [7861] GE [7847] [7853]
 11- 1
 1-1 1
 -11 1
-.names [4610] GE [4603]
+.names [7861] GE [7854]
 01 1
 10 1
-.names [4596]
-.names [4828] zero [4350]
+.names [7847]
+.names [8079] zero [7598]
 01 1
 10 1
 .names in2 zero cout2 cout3
 11- 1
 1-1 1
 -11 1
-.names in2 zero [4349]
+.names in2 zero [7597]
 01 1
 10 1
 .names in3 zero cout1 cout2
 11- 1
 1-1 1
 -11 1
-.names in3 zero [4348]
+.names in3 zero [7596]
 01 1
 10 1
 .names in4 GF zero cout1
@@ -266,6 +280,14 @@ NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
 01 1
 10 1
 .names zero
+.names [7809] [7810] [7811] NBerr
+11- 1
+1-1 1
+-11 1
+.names [7846] [7847] [7848] NEerr
+11- 1
+1-1 1
+-11 1
 .names t8 t7 t6 t5 t4 t3 t2 t1 X8 X7 X6 X5 X4 X3 X2 X1 TOOerr
 1-------1------- 1
 -1------01------ 1
@@ -275,23 +297,15 @@ NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
 -----1--000001-- 1
 ------1-0000001- 1
 -------100000001 1
-.names [4558] [4559] [4560] NBerr
+.names [7888] [7889] [7890] NAerr
 11- 1
 1-1 1
 -11 1
-.names [4595] [4596] [4597] NEerr
+.names [7867] [7868] [7869] NCerr
 11- 1
 1-1 1
 -11 1
-.names [4637] [4638] [4639] NAerr
-11- 1
-1-1 1
--11 1
-.names [4616] [4617] [4618] NCerr
-11- 1
-1-1 1
--11 1
-.names [4828] zero cout3 NFerr
+.names [8079] zero cout3 NFerr
 11- 1
 1-1 1
 -11 1
@@ -319,28 +333,28 @@ NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
 11 1
 .names GD VIN6 vOUT6
 11 1
-.names [4728] [4713] t8
+.names [7979] [7964] t8
 01 1
 10 1
-.names [4352] [4727] t7
+.names [7600] [7978] t7
 01 1
 10 1
-.names [4353] [4725] t6
+.names [7601] [7976] t6
 01 1
 10 1
-.names [4354] [4723] t5
+.names [7602] [7974] t5
 01 1
 10 1
-.names [4355] cout4 t4
+.names [7603] cout4 t4
 01 1
 10 1
-.names [4356] cout5 t3
+.names [7604] cout5 t3
 01 1
 10 1
-.names [4357] cout6 t2
+.names [7605] cout6 t2
 01 1
 10 1
-.names [4358] cout7 t1
+.names [7606] cout7 t1
 01 1
 10 1
 .names t8 uno X8
@@ -349,22 +363,22 @@ NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
 .names t7 uno X7
 01 1
 10 1
-.names t6 [4402] X6
+.names t6 [7650] X6
 01 1
 10 1
-.names t5 [4402] X5
+.names t5 [7650] X5
 01 1
 10 1
 .names t4 uno X4
 01 1
 10 1
-.names t3 [4402] X3
+.names t3 [7650] X3
 01 1
 10 1
-.names t2 [4402] X2
+.names t2 [7650] X2
 01 1
 10 1
-.names t1 [4402] X1
+.names t1 [7650] X1
 01 1
 10 1
 .names errMilling NAerr NBerr NCerr NEerr NFerr spegniti
@@ -374,51 +388,51 @@ NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
 ---1-- 1
 ----1- 1
 -----1 1
-.names val8 [4713] [4728]
+.names val8 [7964] [7979]
 01 1
 10 1
-.names [4713]
-.names val7 [4713] [4352]
+.names [7964]
+.names val7 [7964] [7600]
 01 1
 10 1
-.names [4713] [4727]
+.names [7964] [7978]
 1 1
-.names val6 rest6 [4353]
+.names val6 rest6 [7601]
 01 1
 10 1
-.names val7 [4713] [4727] [4725]
+.names val7 [7964] [7978] [7976]
 11- 1
 1-1 1
 -11 1
-.names val5 rest5 [4354]
+.names val5 rest5 [7602]
 01 1
 10 1
-.names val6 rest6 [4725] [4723]
+.names val6 rest6 [7976] [7974]
 11- 1
 1-1 1
 -11 1
-.names val4 rest4 [4355]
+.names val4 rest4 [7603]
 01 1
 10 1
-.names val5 rest5 [4723] cout4
+.names val5 rest5 [7974] cout4
 11- 1
 1-1 1
 -11 1
-.names val3 rest3 [4356]
+.names val3 rest3 [7604]
 01 1
 10 1
 .names val4 rest4 cout4 cout5
 11- 1
 1-1 1
 -11 1
-.names val2 rest2 [4357]
+.names val2 rest2 [7605]
 01 1
 10 1
 .names val3 rest3 cout5 cout6
 11- 1
 1-1 1
 -11 1
-.names val1 rest1 [4358]
+.names val1 rest1 [7606]
 01 1
 10 1
 .names val2 rest2 cout6 cout7
@@ -427,23 +441,23 @@ NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
 -11 1
 .names uno
  1
-.names [4402]
-.names GC vIN1 outC1 [4670]
+.names [7650]
+.names GC vIN1 outC1 [7921]
 11- 1
 1-1 1
-.names GC vIN2 outC2 [4672]
+.names GC vIN2 outC2 [7923]
 11- 1
 1-1 1
-.names GC vIN3 outC3 [4674]
+.names GC vIN3 outC3 [7925]
 11- 1
 1-1 1
-.names GC vIN4 outC4 [4676]
+.names GC vIN4 outC4 [7927]
 11- 1
 1-1 1
-.names GC vIN5 outC5 [4678]
+.names GC vIN5 outC5 [7929]
 11- 1
 1-1 1
-.names GC vIN6 outC6 [4680]
+.names GC vIN6 outC6 [7931]
 11- 1
 1-1 1
 .names GD outC1 sin1
@@ -470,42 +484,42 @@ NB4 NC1 NC2 NC3 NC4 NE1 NE2 NE3 NE4 NF1 NF2 NF3 NF4
 11 1
 .names GD vOUT6 VOUT6
 11 1
-.names [4391] [4469] rest1
+.names [7639] [7720] rest1
 10 1
-.names sin1 VOUT1 [4391]
+.names sin1 VOUT1 [7639]
 10 1
-.names sin2 VOUT2 [4471] [4469]
+.names sin2 VOUT2 [7722] [7720]
 111 1
-.names sin3 VOUT3 [4473] [4471]
+.names sin3 VOUT3 [7724] [7722]
 111 1
-.names [4390] [4471] rest2
+.names [7638] [7722] rest2
 10 1
-.names sin2 VOUT2 [4390]
+.names sin2 VOUT2 [7638]
 10 1
-.names sin4 VOUT4 [4475] [4473]
+.names sin4 VOUT4 [7726] [7724]
 111 1
-.names [4389] [4473] rest3
+.names [7637] [7724] rest3
 10 1
-.names sin3 VOUT3 [4389]
+.names sin3 VOUT3 [7637]
 10 1
-.names sin5 VOUT5 [4477] [4475]
+.names sin5 VOUT5 [7728] [7726]
 111 1
-.names [4388] [4475] rest4
+.names [7636] [7726] rest4
 10 1
-.names sin4 VOUT4 [4388]
+.names sin4 VOUT4 [7636]
 10 1
-.names sin6 VOUT6 [4479] [4477]
+.names sin6 VOUT6 [7730] [7728]
 111 1
-.names [4387] [4477] rest5
+.names [7635] [7728] rest5
 10 1
-.names sin5 VOUT5 [4387]
+.names sin5 VOUT5 [7635]
 10 1
-.names [4479]
-.names [4478] [4479] rest6
+.names [7730]
+.names [7729] [7730] rest6
 10 1
-.names sin6 VOUT6 [4478]
+.names sin6 VOUT6 [7729]
 10 1
-.names sin1 VOUT1 [4469] SOTerr
+.names sin1 VOUT1 [7720] SOTerr
 111 1
 .names val1 rest1 cout7 SUMerr
 11- 1

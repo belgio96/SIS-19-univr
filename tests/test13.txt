@@ -1,0 +1,96 @@
+rl FSMD.blif
+sim 1 1 1 0 0 0 0 #start
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE
+
+sim 1 0 0 0 0 0 0 #start cycle
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE
+
+sim 1 0 0 0 0 0 0 #start cycle
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE
+
+
+sim 1 0 0 0 0 0 0 #start cycle
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE
+
+
+sim 1 0 0 0 0 0 0 #start cycle
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE
+
+
+sim 1 0 0 0 0 0 0 #start cycle
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE
+
+
+sim 1 0 0 0 0 0 0 #start cycle
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE
+
+
+sim 1 0 0 0 0 0 0 #start cycle
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE
+
+
+sim 1 0 0 0 0 0 0 #start cycle
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE
+
+
+sim 1 0 0 0 0 0 0 #start cycle
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE
+
+
+sim 1 0 0 0 0 0 0 #start cycle
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE (11)
+
+
+sim 1 0 0 0 0 0 0 #start cycle
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE (12)
+
+
+sim 1 0 0 0 0 0 0 #start cycle
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE (13)
+
+
+sim 1 0 0 0 0 0 0 #start cycle
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE (14)
+
+
+sim 1 0 0 0 0 0 0 #start cycle
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE (15)
+
+
+sim 1 0 0 0 0 0 0 #start cycle
+sim 1 0 0 0 0 0 0 #GA to GC
+sim 1 0 0 0 0 0 0 #milling ok
+sim 0 0 0 0 0 0 0 #err +1 NE (16)
+
+
+#test ok on next cycle

@@ -1,13 +1,13 @@
 .model start
 .inputs in1 in2 in3 spegnit1cycle
 .outputs io errMilling GA GB GC GD GE GF
-.latch    [716] LatchOut_v4   0
-.latch    [717] LatchOut_v5   0
-.latch    [718] LatchOut_v6   1
+.latch    [8] LatchOut_v4   1
+.latch    [9] LatchOut_v5   1
+.latch    [10] LatchOut_v6   0
 .start_kiss
 .i 4
 .o 8
-.p 20
+.p 23
 .s 5
 .r S
 10-- S S 00000000
@@ -18,13 +18,16 @@
 -0-1 S S 00000000
 1110 S B 10100000
 1--1 B S 00010000
-0--- B I 10010000
+0--0 B I 10010000
 1--0 B M 10001000
+0--1 B S 00010000
 1--0 I B 10100000
 0--1 I S 00000000
 0--0 I S 00000000
+1--1 I S 00000000
 0--0 M S 01000000
----1 M S 00000000
+1--1 M S 00000000
+0--1 M S 00000000
 1--0 M A 10000100
 0--0 A I 10000010
 0--1 A S 00000010
@@ -32,115 +35,111 @@
 1--1 A S 00000001
 .end_kiss
 .latch_order LatchOut_v4 LatchOut_v5 LatchOut_v6
-.code S 001
-.code B 000
-.code I 011
-.code M 010
-.code A 101
-.names in1 spegnit1cycle LatchOut_v5 LatchOut_v6 [716]
-1010 1
-.names in1 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 [717]
--01-- 1
-0--00 1
-10-00 1
-.names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 [718]
+.code S 110
+.code B 010
+.code I 111
+.code M 011
+.code A 100
+.names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 [8]
 0------ 1
 ---1--- 1
-1---1-- 1
--0---01 1
---0--01 1
-1--0-10 1
+1----0- 1
+-0--1-0 1
+--0-1-0 1
+1--00-1 1
+.names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 [9]
+0------ 1
+---1--- 1
+1----0- 1
+-0--1-0 1
+--0-1-0 1
+1--01-1 1
+1--00-0 1
+111-110 1
+.names in1 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 [10]
+-0-0- 1
+100-0 1
+000-0 1
 .names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 io
----01-- 1
-1----11 1
-0----00 1
-1--0-10 1
-1--0-00 1
-111-0-1 1
-.names in1 spegnit1cycle LatchOut_v5 LatchOut_v6 errMilling
-0010 1
-.names in1 in2 in3 LatchOut_v4 LatchOut_v5 LatchOut_v6 GA
-1---11 1
-1110-1 1
-.names in1 spegnit1cycle LatchOut_v5 LatchOut_v6 GB
-0-00 1
+---0-0- 1
+1--01-1 1
+1--00-1 1
+1--00-0 1
+0--00-0 1
+111-110 1
+.names in1 spegnit1cycle LatchOut_v4 LatchOut_v6 errMilling
+0001 1
+.names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 GA
+1--01-1 1
+111-110 1
+.names in1 spegnit1cycle LatchOut_v4 LatchOut_v6 GB
 -100 1
-.names in1 spegnit1cycle LatchOut_v5 LatchOut_v6 GC
+0000 1
+.names in1 spegnit1cycle LatchOut_v4 LatchOut_v6 GC
 1000 1
-.names in1 spegnit1cycle LatchOut_v5 LatchOut_v6 GD
-1010 1
-.names in1 LatchOut_v4 GE
-01 1
-.names in1 LatchOut_v4 GF
-11 1
+.names in1 spegnit1cycle LatchOut_v4 LatchOut_v6 GD
+1001 1
+.names in1 LatchOut_v5 GE
+00 1
+.names in1 LatchOut_v5 GF
+10 1
 .exdc 
 .inputs in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6
-.outputs [716] [717] [718] io errMilling GA GB GC GD GE GF
-.names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 [716]
-----11- 1
-----1-0 1
-1--1-11 1
-11110-1 1
-0000001 1
-.names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 [717]
-----11- 1
-----1-0 1
-1--1-11 1
-11110-1 1
-0000001 1
-.names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 [718]
-----11- 1
-----1-0 1
-1--1-11 1
-11110-1 1
-0000001 1
+.outputs [8] [9] [10] io errMilling GA GB GC GD GE GF
+.names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 [8]
+----00- 1
+-----01 1
+1111110 1
+0000110 1
+.names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 [9]
+----00- 1
+-----01 1
+1111110 1
+0000110 1
+.names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 [10]
+----00- 1
+-----01 1
+1111110 1
+0000110 1
 .names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 io
-----11- 1
-----1-0 1
-1--1-11 1
-11110-1 1
-0000001 1
+----00- 1
+-----01 1
+1111110 1
+0000110 1
 .names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 \
 errMilling
-----11- 1
-----1-0 1
-1--1-11 1
-11110-1 1
-0000001 1
+----00- 1
+-----01 1
+1111110 1
+0000110 1
 .names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 GA
-----11- 1
-----1-0 1
-1--1-11 1
-11110-1 1
-0000001 1
+----00- 1
+-----01 1
+1111110 1
+0000110 1
 .names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 GB
-----11- 1
-----1-0 1
-1--1-11 1
-11110-1 1
-0000001 1
+----00- 1
+-----01 1
+1111110 1
+0000110 1
 .names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 GC
-----11- 1
-----1-0 1
-1--1-11 1
-11110-1 1
-0000001 1
+----00- 1
+-----01 1
+1111110 1
+0000110 1
 .names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 GD
-----11- 1
-----1-0 1
-1--1-11 1
-11110-1 1
-0000001 1
+----00- 1
+-----01 1
+1111110 1
+0000110 1
 .names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 GE
-----11- 1
-----1-0 1
-1--1-11 1
-11110-1 1
-0000001 1
+----00- 1
+-----01 1
+1111110 1
+0000110 1
 .names in1 in2 in3 spegnit1cycle LatchOut_v4 LatchOut_v5 LatchOut_v6 GF
-----11- 1
-----1-0 1
-1--1-11 1
-11110-1 1
-0000001 1
+----00- 1
+-----01 1
+1111110 1
+0000110 1
 .end
