@@ -46,8 +46,9 @@
 .names GD VIN6 vOUT6
 11 1
 
-## ~TODO
+## ~DONE
 
+#err to stop
 .names errMilling TOOerr NAerr NBerr NCerr NEerr NFerr spegniti
 # errMilling 001
 1------ 1
@@ -63,7 +64,7 @@
 #------1 1
 
 
-
+#err codes
 .names NBerr NEerr err1
 # NB
 10 1
